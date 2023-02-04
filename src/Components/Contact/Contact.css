@@ -1,0 +1,67 @@
+#contact form {
+    font-size: 1.8rem;
+    color: var(--lt-tx);
+}
+
+#form label {
+    display: block;
+    margin: 0;
+    width: 50%;
+}
+
+#contact a {
+    background-color: transparent;
+}
+
+#contact input, 
+#contact input:focus, 
+#contact textarea, 
+#contact textarea:focus {
+    border: none;
+    box-shadow: none;
+    color: var(--lt-tx);
+    cursor: context-menu;
+    margin: 1rem 0 2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+#contact textarea {
+    resize: none;
+    overflow: auto;
+}
+
+#contact form button {    
+    font-size: 1.8rem;
+    background-color: var(--bk-action);
+    color: var(--tx-action);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin: 3rem;
+    padding: 1.6rem;
+    transition: background-color .3s ease;
+}
+
+#contact form button:hover {
+    background-color: var(--bk-action-h);
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#contact img {
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid var(--lt-bk3); 
+    border-radius: 50%;
+    background-color: var(--lt-bk3);
+    
+    
+    margin: 1rem;
+    transition: all .3s ease;
+}
