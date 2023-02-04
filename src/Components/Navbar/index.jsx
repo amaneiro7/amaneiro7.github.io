@@ -9,12 +9,12 @@ export function Navbar() {
                 <div className='navbar__container'>
                     <a href="/">
                         <img className='navbar__logo' src="./../../assets/images/profile-pic.png" alt="profile pic"/>
-                        <span>
+                        <p>
                             Andres Maneiro
                             <small>
                                 IT Sopport | Frontend Developer
                             </small>
-                        </span>
+                        </p>
                     </a>
                     <button className={`navbar__btn ${state && "active"}`}
                         onClick={() => setState(!state)}
