@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+
+    /* Light Theme LT */
+    --lt-bk1:#FFFFFF;
+    --lt-bk2:#F6F8FA;
+    --lt-bk3:#00BDD6;
+    --lt-bk4:#00B0C7;
+    --lt-tx:#24292F;
+    --lt-tx2: #F8FFFF;
+    --lt-tx3:#0669Da;
+    /* Dark Theme DT */
+    --dt-bk1:#0D1117;
+    --dt-bk2: #161B22;
+    --dt-bk3: #132339;
+    --dt-tx: #c9d1dc9;
+    --dt-tx2: #58A6FF;
+
+    /* actions button */
+    --bk-action: #3798FF;
+    --bk-action-h:#0969DA;
+    --tx-action: #F8FFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: var(--lt-bk);
+    color: var(--lt-tx);
+    font-size: 62.5%;
+    line-height: 1.15;
+}
+h1,h2,h3 {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+h1,h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {    
+    font-size: 1.5rem;    
+    letter-spacing: .1rem;
+}
+
+h3 {    
+    letter-spacing: .3rem;    
+}
+
+p {
+    padding: 0 2rem;
+    text-align: justify;
+    font-size: 1rem;    
+    font-weight: 400;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+small {
+    font-size: .7rem;
+    margin-left: .2rem;
+}
+
+hr {
+    border: 0;
+    height: .1rem;
+    max-width: 100%;    
+    overflow: visible;
+    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);
+}
+
+header {
+    width: 100%;
+    height: auto;    
+    padding: 5rem 0 0;
+    position: relative;
+    background-image: url('../assets/images/cover-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main section {
+    padding: .3rem 0;
+}
+
+main section:nth-child(even) {
+    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));
+    color: var(--lt-tx2);
+}
+
+main section:nth-child(even) hr {
+    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);
+}
+
+main section:nth-child(odd) {
+    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));
+    color: var(--lt-tx);
+}
+
+main section:nth-child(odd) hr {
+    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);
+}

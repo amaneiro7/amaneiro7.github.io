@@ -1,7 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const ProgressPlugin = require('progress-webpack-plugin');
 
@@ -9,8 +8,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "[name].[contenthash].js",
-        assetModuleFilename: 'assets/images/[hash][ext][query]',   
+        filename: "[name].[contenthash].js",        
         clean: true,
     },
     resolve: {
@@ -19,38 +17,30 @@ module.exports = {
             '@styles': path.resolve(__dirname,'src/styles'),
             '@App': path.resolve(__dirname,'src/App'),
             '@Components': path.resolve(__dirname,'src/Components'),
+            '@assets': path.resolve(__dirname,'src/assets/images'),
         }
     },
-    mode: 'production',
+    mode: 'development',
     module: {
         rules: [
+            {
+                test: /\.css$/i,
+                use: [
+                    "style-loader",
+                    "css-loader",      
+                ]
+            },
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader",
+                    loader: "babel-loader",                    
                 },
-            },
-            {
-                test: /\.html$/,
-                use: [
-                    {
-                        loader: "html-loader",
-                    },
-                ],
-            },
-            {
-                test: /\.css$/i,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    "style-loader",
-                    "css-loader",
-                ]
             },
             {
                 test: /\.(png|jpg|jpeg)/,
                 type: 'asset/resource'
-            }
+            },
         ],
     },
     plugins: [
@@ -71,10 +61,10 @@ module.exports = {
             ]
         })
     ],
-    optimization: {
-        minimize: true,
-        minimizer: [
-            new CssMinimizerPlugin(),
-        ]
+    devServer: {
+        static: path.join(__dirname, "dist"),
+        compress: true,
+        port: 3000,
+        open: true
     },
 };
