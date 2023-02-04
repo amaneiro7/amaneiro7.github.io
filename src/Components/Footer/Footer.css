@@ -1,0 +1,6 @@
+#footer {
+    font-size: 1.4rem;
+    background: linear-gradient(var(--black1),var(--black2));
+    color: var(--lt-tx2);
+    padding: 4rem 0;
+}
