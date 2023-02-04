@@ -57,6 +57,14 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, "src", "assets/images"),
                     to: "assets/images"
+                },
+                {
+                    from: path.resolve(__dirname, "src", "assets/skillset"),
+                    to: "assets/skillset"
+                },
+                {
+                    from: path.resolve(__dirname, "src", "assets/download"),
+                    to: "assets/download"
                 }
             ]
         })

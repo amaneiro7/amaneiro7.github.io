@@ -9,7 +9,8 @@
     width: max-content;    
     transition: background-color .3s ease, color .3s ease;
 }
-#aboutme a:hover {
+#aboutme a:hover,
+#aboutme a:visited {
     background-color: var(--lt-bk3);
-    color: var(--lt-tx2);
+    color: var(--lt-tx);
 }

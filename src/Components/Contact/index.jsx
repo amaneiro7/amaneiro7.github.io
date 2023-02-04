@@ -52,7 +52,7 @@ export function Contact() {
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/amaneiro7/">
-                        <img src="../../assets/images/linkedin-round.svg" alt="linkdIn" />
+                        <img src="../../assets/images/linkedin.svg" alt="linkdIn" />
                     </a>
                 </li>
                 <li>
