@@ -1,16 +1,12 @@
-#aboutme div {
-    display: flex;
-    flex-direction: column;
-    padding: 6rem 10rem;
-}
 #aboutme p {
     text-indent: 4rem;
     padding: 1rem 0;
 }
 #aboutme a {
-    border: 1px solid var(--lt-tx);
+    padding: 2rem;
+    border: 1px solid var(--lt-bk3);
     background: transparent;
-    width: min-content;    
+    width: max-content;    
     transition: background-color .3s ease, color .3s ease;
 }
 #aboutme a:hover {
