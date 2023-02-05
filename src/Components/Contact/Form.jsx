@@ -20,6 +20,7 @@ export function Form({handleSubmit, state, inputEmail, inputMessage, setInputEma
                     id="email"
                     type="email"
                     name="email"
+                    placeholder="Introduce your email"
                     required
                     value={inputEmail}
                     onChange={onChangeInputEmail}                  
@@ -35,6 +36,7 @@ export function Form({handleSubmit, state, inputEmail, inputMessage, setInputEma
                 <textarea
                     id="message"
                     name="message"
+                    placeholder="Leave a message"
                     value={inputMessage}
                     onChange={onChangeInputMessage}                 
                     required 

@@ -4,7 +4,7 @@
 
     /* Light Theme LT */
     --lt-bk1:#FFFFFF;
-    --lt-bk2:#F6F8FA;
+    --lt-bk2:#d0d5db;
     --lt-bk3:#00BDD6;
     --lt-bk4:#00B0C7;
     --lt-tx:#24292F;
@@ -83,8 +83,7 @@ a {
 }
 
 small {
-    font-size: 1.2rem;
-    /* margin-left: .8rem; */
+    font-size: 1.2rem;    
 }
 
 hr {

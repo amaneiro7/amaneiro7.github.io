@@ -14,15 +14,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-    background-color: var(--lt-bk2);
+    background-color: var(--lt-bk1);
     border-radius: 1rem;
     color: var(--lt-tx);
-    transition: transform .3s ease, background-color .3s ease;
+    transition: transform .3s ease;
 }
 
 #portfolio>div>div:hover {
-    transform: scale(1.1);
-    background-color: var(--lt-bk4);    
+    transform: scale(1.1);    
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
