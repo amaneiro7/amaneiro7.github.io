@@ -1070,6 +1070,29 @@ __webpack_unused_export__ = loadStripe;
 
 /***/ }),
 
+/***/ 506:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(81);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#alinkbutton {    \r\n    font-size: 1.4rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: .5rem;\r\n    cursor: pointer;\r\n    margin-bottom: 2rem;\r\n    padding: 1rem 3rem;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n#alinkbutton:hover {\r\n    background-color: var(--bk-action-h);\r\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ 316:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -1086,7 +1109,7 @@ __webpack_unused_export__ = loadStripe;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#aboutme p {\r\n    text-indent: 4rem;\r\n    padding: 1rem 0;\r\n}\r\n#aboutme a {\r\n    padding: 2rem;\r\n    border: 1px solid var(--lt-bk3);\r\n    background: transparent;\r\n    width: max-content;    \r\n    transition: background-color .3s ease, color .3s ease;\r\n}\r\n#aboutme a:hover,\r\n#aboutme a:visited {\r\n    background-color: var(--lt-bk3);\r\n    color: var(--lt-tx);\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#aboutme p {\r\n    text-indent: 4rem;\r\n    padding: 1rem 0;\r\n}\r\n#aboutme a {\r\n    padding: 2rem;\r\n    border: 1px solid var(--lt-bk3);\r\n    border-radius: .5rem;\r\n    width: max-content;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n    transition: background-color .3s ease, color .3s ease;\r\n}\r\n#aboutme a:hover,\r\n#aboutme a:visited {\r\n    background-color: var(--lt-bk3);\r\n    color: var(--lt-tx);    \r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1109,7 +1132,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#aboutme p {\r\n    text-indent: 4rem;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\r\n    margin: 1rem;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk2);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n}\r\n\r\n#achievements img {\r\n    border-radius: 1rem;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 60px;\r\n    width: auto;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk2);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease, background-color .3s ease;\r\n}\r\n\r\n#achievements>div>div:hover {\r\n    transform: scale(1.1);\r\n    background-color: var(--lt-bk4);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#achievements img {    \r\n    border-radius: 50%;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 65px;\r\n    width: 65px;\r\n    border: .5px solid var(--lt-bk3);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1132,7 +1155,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: gr
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#button {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin-top: 3rem;\r\n    padding: 1rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n#button:hover {\r\n    background-color: var(--bk-action-h);\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#button {    \r\n    font-size: 1.4rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: .5rem;\r\n    cursor: pointer;\r\n    margin-top: 3rem;\r\n    padding: 1rem 3rem;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n#button:hover {\r\n    background-color: var(--bk-action-h);\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1155,7 +1178,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#button {    \r\n    font-size: 1.8rem
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\r\n#contact form,\r\n.SentMessage {\r\n    padding: 3rem;\r\n    width: 60%;\r\n    height: 400px;    \r\n    font-size: 1.8rem;\r\n    background-color: var(--lt-bk2);\r\n    color: var(--lt-tx);\r\n    border: 1px solid var(--lt-bk3);    \r\n    text-align: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#form label {\r\n    display: block;\r\n    margin: 0;\r\n    width: 50%;\r\n}\r\n\r\n#contact input, \r\n#contact textarea {\r\n    color: var(--lt-tx2);\r\n    background-color: var(--lt-bk3);\r\n    border: none;\r\n    box-shadow: none;\r\n    cursor: context-menu;\r\n    margin: 1rem 0 2rem;\r\n    padding: 1rem;\r\n    width: 100%;\r\n}\r\n#contact input:focus, \r\n#contact input:hover, \r\n#contact textarea:focus, \r\n#contact textarea:hover {\r\n    background-color: var(--lt-bk4);\r\n}\r\n\r\n#contact textarea {\r\n    resize: none;\r\n    overflow: auto;\r\n}\r\n\r\n.contact__btn {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin: 3rem;\r\n    padding: 1.6rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n.contact__btn:hover {\r\n    background-color: var(--bk-action-h);\r\n}\r\n\r\n#contact ul {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    list-style: none;\r\n}\r\n\r\n#contact img {\r\n    width: 45px;\r\n    height: 45px;\r\n    border: 1.5px solid var(--lt-bk3); \r\n    border-radius: 50%;\r\n    background-color: var(--lt-bk3); \r\n    margin: 1rem;\r\n    transition: all .3s ease;\r\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\r\n#contact form,\r\n.SentMessage {\r\n    padding: 3rem;\r\n    width: 60%;\r\n    height: 400px;    \r\n    font-size: 1.8rem;\r\n    background-color: var(--lt-bk2);\r\n    color: var(--lt-tx);\r\n    border: 1px solid var(--lt-bk3);    \r\n    text-align: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#form label {\r\n    display: block;\r\n    margin: 0;\r\n    width: 50%;\r\n}\r\n\r\n#contact input, \r\n#contact textarea {    \r\n    color: var(--lt-tx2);\r\n    background-color: var(--lt-bk3);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n    border: none;\r\n    border-radius: .5rem;\r\n    box-shadow: none;\r\n    cursor: context-menu;\r\n    margin: 1rem 0 2rem;\r\n    padding: 1rem;\r\n    width: 100%;\r\n}\r\n#contact input:focus, \r\n#contact input:hover, \r\n#contact textarea:focus, \r\n#contact textarea:hover {\r\n    background-color: var(--lt-bk4);\r\n}\r\n\r\n#contact textarea {\r\n    resize: none;\r\n    overflow: auto;\r\n}\r\n\r\n.contact__btn {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin: 3rem;\r\n    padding: 1.6rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n.contact__btn:hover {\r\n    background-color: var(--bk-action-h);\r\n}\r\n\r\n#contact ul {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    list-style: none;\r\n}\r\n\r\n#contact img {\r\n    width: 45px;\r\n    height: 45px;\r\n    border: 1.5px solid var(--lt-bk3); \r\n    border-radius: 50%;\r\n    background-color: var(--lt-bk3); \r\n    margin: 1rem;\r\n    transition: all .3s ease;\r\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1247,7 +1270,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#navbar {\r\n    width: 100%;\r\n    h
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#portfolio>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#portfolio>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk2);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease, background-color .3s ease;\r\n}\r\n\r\n#portfolio>div>div:hover {\r\n    transform: scale(1.1);\r\n    background-color: var(--lt-bk4);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#portfolio>div>div small {\r\n    font-size: 1.4rem;\r\n    font-weight: 500;\r\n}\r\n\r\n#portfolio>div>div span {\r\n    font-size: 1.2rem;\r\n    margin-bottom: 2rem;\r\n}\r\n\r\n#portfolio img {\r\n    border-radius: 1rem;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 250px;\r\n    width: 200px;\r\n    object-fit: cover;\r\n    object-position: center;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2649,19 +2672,64 @@ var Portfolio_update = injectStylesIntoStyleTag_default()(Portfolio/* default */
 
        /* harmony default export */ const Portfolio_Portfolio = (Portfolio/* default */.Z && Portfolio/* default.locals */.Z.locals ? Portfolio/* default.locals */.Z.locals : undefined);
 
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/ALinkButton/ALinkButton.css
+var ALinkButton = __webpack_require__(506);
+;// CONCATENATED MODULE: ./src/Components/ALinkButton/ALinkButton.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var ALinkButton_options = {};
+
+ALinkButton_options.styleTagTransform = (styleTagTransform_default());
+ALinkButton_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      ALinkButton_options.insert = insertBySelector_default().bind(null, "head");
+    
+ALinkButton_options.domAPI = (styleDomAPI_default());
+ALinkButton_options.insertStyleElement = (insertStyleElement_default());
+
+var ALinkButton_update = injectStylesIntoStyleTag_default()(ALinkButton/* default */.Z, ALinkButton_options);
+
+
+
+
+       /* harmony default export */ const ALinkButton_ALinkButton = (ALinkButton/* default */.Z && ALinkButton/* default.locals */.Z.locals ? ALinkButton/* default.locals */.Z.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/Components/ALinkButton/index.jsx
+
+
+function Components_ALinkButton_ALinkButton(props) {
+  var name = props.name,
+    link = props.link;
+  return /*#__PURE__*/react.createElement("a", {
+    id: "alinkbutton",
+    href: link,
+    target: '_blank'
+  }, name);
+}
 ;// CONCATENATED MODULE: ./src/Components/Portfolio/PortfolioList.jsx
+
 
 function PortfolioList(_ref) {
   var project = _ref.project;
-  return;
-  // (
-  //     <div>
-  //         <img src={project.image} alt={project.name} />
-  //         <span className='tooltip'>
-  //             {project.name}                
-  //         </span>
-  //     </div>       
-  // )
+  return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("img", {
+    src: project.image,
+    alt: project.name
+  }), /*#__PURE__*/react.createElement("small", null, project.name), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("span", null, project.description), /*#__PURE__*/react.createElement(Components_ALinkButton_ALinkButton, {
+    name: "Watch Here",
+    link: project.deploy_link
+  }), /*#__PURE__*/react.createElement(Components_ALinkButton_ALinkButton, {
+    name: "Repository",
+    link: project.repository_link
+  }));
 }
 ;// CONCATENATED MODULE: ./src/Components/Portfolio/index.jsx
 
@@ -2671,9 +2739,9 @@ function Components_Portfolio_Portfolio(_ref) {
   var portfolioDB = _ref.portfolioDB;
   return /*#__PURE__*/react.createElement("section", {
     id: "portfolio"
-  }, /*#__PURE__*/react.createElement("h3", null, "Portfolio"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, portfolioDB.map(function (project) {
+  }, /*#__PURE__*/react.createElement("h3", null, "Portfolio"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, portfolioDB.map(function (project, index) {
     return /*#__PURE__*/react.createElement(PortfolioList, {
-      key: project.id,
+      key: index,
       project: project
     });
   })));
@@ -2728,9 +2796,9 @@ function Components_Skillset_Skillset(_ref) {
   var skillsetDB = _ref.skillsetDB;
   return /*#__PURE__*/react.createElement("section", {
     id: "skillset"
-  }, /*#__PURE__*/react.createElement("h3", null, "SKILLSET"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, skillsetDB.map(function (skill) {
+  }, /*#__PURE__*/react.createElement("h3", null, "SKILLSET"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, skillsetDB.map(function (skill, index) {
     return /*#__PURE__*/react.createElement(SkillsetList, {
-      key: skill.id,
+      key: index,
       skill: skill
     });
   })));
@@ -2820,7 +2888,7 @@ function AchievementsList(_ref) {
   return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("img", {
     src: achievement.logo,
     alt: "".concat(achievement.name, " logo")
-  }), /*#__PURE__*/react.createElement("small", null, achievement.name), /*#__PURE__*/react.createElement(Components_Button_Button, {
+  }), /*#__PURE__*/react.createElement("small", null, achievement.name), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("small", null, "Otorged by: ", achievement.otorged_by), /*#__PURE__*/react.createElement(Components_Button_Button, {
     name: "View"
   }));
 }
@@ -2832,9 +2900,9 @@ function Components_Achievements_Achievements(_ref) {
   var achievementsDB = _ref.achievementsDB;
   return [/*#__PURE__*/react.createElement("section", {
     id: "achievements"
-  }, /*#__PURE__*/react.createElement("h3", null, "ACHIEVEMENTS"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, achievementsDB.map(function (achievement) {
+  }, /*#__PURE__*/react.createElement("h3", null, "ACHIEVEMENTS"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, achievementsDB.map(function (achievement, index) {
     return /*#__PURE__*/react.createElement(AchievementsList, {
-      key: achievement.id,
+      key: index,
       achievement: achievement
     });
   })))];
@@ -2985,22 +3053,26 @@ function Components_Contact_Contact() {
     setInputMessage: setInputMessage,
     handleSubmit: handleSubmit
   })), /*#__PURE__*/react.createElement("ul", null, /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "https://www.linkedin.com/in/amaneiro7/"
+    href: "https://www.linkedin.com/in/amaneiro7/",
+    target: '_blank'
   }, /*#__PURE__*/react.createElement("img", {
     src: "../../assets/images/linkedin.svg",
     alt: "linkdIn"
   }))), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "https://github.com/amaneiro7"
+    href: "https://github.com/amaneiro7",
+    target: '_blank'
   }, /*#__PURE__*/react.createElement("img", {
     src: "../../assets/images/github.svg",
     alt: "GitHub"
   }))), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "https://twitter.com/Andruelectronic"
+    href: "https://twitter.com/Andruelectronic",
+    target: '_blank'
   }, /*#__PURE__*/react.createElement("img", {
     src: "../../assets/images/twitter.svg",
     alt: "Twitter"
   }))), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "https://www.instagram.com/amaneiro7/"
+    href: "https://www.instagram.com/amaneiro7/",
+    target: '_blank'
   }, /*#__PURE__*/react.createElement("img", {
     src: "../../assets/images/instagram.svg",
     alt: "Instagram"
@@ -3075,7 +3147,109 @@ var skillsetDB = [{
   name: "NodeJs",
   image: "../../assets/skillset/node-js.svg"
 }];
-var portfolioDB = [];
+var portfolioDB = [{
+  name: "Platzi Movies",
+  description: "This project use de MovieDB API to bring us movie trend around the world",
+  image: "../assets/portfolio/moviedb.jpg",
+  deploy_link: "https://amaneiro7.github.io/MovideDB/",
+  repository_link: "https://github.com/amaneiro7/MovideDB"
+}, {
+  name: "Product APP Fazt Tutorial",
+  description: "This project was a tutorial from Fazt to create a APP with class in javascript",
+  image: "../assets/portfolio/productapp.jpg",
+  deploy_link: "https://amaneiro7.github.io/ProductAppFaztTutorial/",
+  repository_link: "https://github.com/amaneiro7/ProductAppFaztTutorial"
+}, {
+  name: "Random Profile API Curso Webpack",
+  description: "This project is a profile random API, realized to put a practice a webpak configuration",
+  image: "../assets/portfolio/webpack.jpg",
+  deploy_link: "https://cursowebpackam7.netlify.app/",
+  repository_link: "https://github.com/amaneiro7/CursoWebpack"
+}, {
+  name: "CarpiShop - React",
+  description: "This is one of my first personal project to create a fake store using React",
+  image: "../assets/portfolio/CarpiShop.jpg",
+  deploy_link: "https://github.com/amaneiro7/e-commerce-react",
+  repository_link: "https://github.com/amaneiro7/e-commerce-react"
+}, {
+  name: "Batatabit",
+  description: "This website was realized in a platzi CSS course",
+  image: "../assets/portfolio/batatabit.jpg",
+  deploy_link: "https://amaneiro7.github.io/Batatabit/",
+  repository_link: "https://github.com/amaneiro7/Batatabit"
+}, {
+  name: "Google Clon",
+  description: "This is a clon of google realized width HTML, CSS and vainilla JavaScript",
+  image: "../assets/portfolio/clongoogle.jpg",
+  deploy_link: "https://amaneiro7.github.io/GoogleClonePlatzi/",
+  repository_link: "https://github.com/amaneiro7/GoogleClonePlatzi"
+}, {
+  name: "API youtube",
+  description: "This is a project realized in a platzi course, using a youtube api to bring the latest video of a specific channel",
+  image: "../assets/portfolio/apiyoutube.jpg",
+  deploy_link: "https://amaneiro7.github.io/async-landing/",
+  repository_link: "https://github.com/amaneiro7/async-landing/"
+}, {
+  name: "API Weather Fazt Tutorial",
+  description: "This is a project with vainilla javascript, using a API that bring us the weather of a specific city adn save de last search in the localstorage",
+  image: "../assets/portfolio/apiweather.jpg",
+  deploy_link: "https://amaneiro7.github.io/WeatherAPP/",
+  repository_link: "https://github.com/amaneiro7/WeatherAPP/"
+}, {
+  name: "ToDo List",
+  description: "This project is a challenge from platzi to create a To Do List",
+  image: "../assets/portfolio/todo.jpg",
+  deploy_link: "https://proyectotodo.netlify.app/",
+  repository_link: "https://github.com/amaneiro7/laboratorio-mydayapp-js"
+}, {
+  name: "Advice Generator",
+  description: "This is a project from a Frontend Mentor Challenge, using a API to generate a Random Advice",
+  image: "../assets/portfolio/advicegenerator.jpg",
+  deploy_link: "https://advicegenereatoram7.netlify.app/",
+  repository_link: "https://github.com/amaneiro7/git-github.com-amaneiro7-AdviceGenerator"
+}, {
+  name: "Platzi FakeStore",
+  description: "This project is a challenge from a Platzi to create a small e-commerce",
+  image: "../assets/portfolio/fakestore.jpg",
+  deploy_link: "https://platzifakestoream7.netlify.app/",
+  repository_link: "https://github.com/amaneiro7/laboratorio-fakestore"
+}, {
+  name: "PokeApi",
+  description: "This project is a small pokedex using a Pokemon API",
+  image: "../assets/portfolio/pokeapi.jpg",
+  deploy_link: "https://amaneiro7.github.io/PokeApi01/",
+  repository_link: "https://github.com/amaneiro7/PokeApi01"
+}, {
+  name: "Challenge of a Template",
+  description: "This is a template of a portfolio web mobile version",
+  image: "../assets/portfolio/templateportfolio2.jpg",
+  deploy_link: "https://amaneiro7.github.io/UXTemplate/",
+  repository_link: "https://github.com/amaneiro7/UXTemplate"
+}, {
+  name: "Challenge of a Template",
+  description: "This is a template of a portfolio web",
+  image: "../assets/portfolio/templateportfolio.jpg",
+  deploy_link: "https://amaneiro7.github.io/HolaJuniorsReto/",
+  repository_link: "https://github.com/amaneiro7/HolaJuniorsReto"
+}, {
+  name: "ToDO Machine",
+  description: "This is a ToDo Machine realized of react course from platzi",
+  image: "../assets/portfolio/todomachine.jpg",
+  deploy_link: "https://amaneiro7.github.io/platzitodoreact/",
+  repository_link: "https://github.com/amaneiro7/platzitodoreact"
+}, {
+  name: "Platzi VideoGames",
+  description: "This is a videogame realized wifth vainilla javascript",
+  image: "../assets/portfolio/platzivideogame.jpg",
+  deploy_link: "https://amaneiro7.github.io/PlatziVideogame/",
+  repository_link: "https://github.com/amaneiro7/PlatziVideogame"
+}, {
+  name: "404 Page Challenge",
+  description: "This is a project from a frotend mentor challenge",
+  image: "../assets/portfolio/404pagechallenge.jpg",
+  deploy_link: " https://amaneiro7.github.io/404PageChallenge/",
+  repository_link: "https://github.com/amaneiro7/404PageChallenge"
+}];
 var achievementsDB = [{
   name: "Azure Fundamentals",
   Title: "Certificate",
@@ -3089,11 +3263,17 @@ var achievementsDB = [{
   logo: "../assets/achievements-icon/new-relic.png",
   image: "../assets/achievements/New_Relic-Full_Stack_Obserbavility.jpg"
 }, {
-  name: "",
-  Title: "",
-  otorged_by: "",
-  logo: "",
-  image: ""
+  name: "HTML y CSS a Profundidad",
+  Title: "Diploma",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/HTMLaProfundidad.webp",
+  image: "../assets/achievements/Platzi-Diploma_HTML_y_CSS_a_Profundidad.jpg"
+}, {
+  name: "JavaScript a Profundidad",
+  Title: "Diploma",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/JavaScriptaProfundidad.webp",
+  image: "../assets/achievements/Platzi-Diploma_JavaScrip_a_Profundidad.jpg"
 }];
 ;// CONCATENATED MODULE: ./src/App/index.js
 
