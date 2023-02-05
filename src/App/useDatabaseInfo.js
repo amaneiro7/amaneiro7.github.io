@@ -40,5 +40,28 @@ import React from "react";
         },
     ]
     export const  portfolioDB = []
-    export const  achievementsDB = []
+
+    export const  achievementsDB = [
+        {
+            name: "Azure Fundamentals",
+            Title: "Certificate",
+            otorged_by: "Microsoft",
+            logo: "../assets/achievements-icon/microsoft-certified-fundamentals-badge.svg",
+            image: "../assets/achievements/Microsoft_Certified-Azure_Fundamentals.jpg",
+        },
+        {
+            name: "New Relic: Full Stack Observability",
+            Title: "Certificate",
+            otorged_by: "New Relic University",
+            logo: "../assets/achievements-icon/new-relic.png",
+            image: "../assets/achievements/New_Relic-Full_Stack_Obserbavility.jpg",
+        },
+        {
+            name: "",
+            Title: "",
+            otorged_by: "",
+            logo: "",
+            image: "",
+        },
+    ]
 

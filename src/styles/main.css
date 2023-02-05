@@ -115,6 +115,8 @@ main section {
 main section>div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 6rem 10rem;
 }
 

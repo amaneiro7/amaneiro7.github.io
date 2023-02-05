@@ -1,0 +1,15 @@
+#button {    
+    font-size: 1.8rem;
+    background-color: var(--bk-action);
+    color: var(--tx-action);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    padding: 1rem;
+    transition: background-color .3s ease;
+}
+
+#button:hover {
+    background-color: var(--bk-action-h);
+}

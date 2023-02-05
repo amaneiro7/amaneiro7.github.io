@@ -8,7 +8,7 @@ const ProgressPlugin = require('progress-webpack-plugin');
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         filename: "[name].[contenthash].js",
         assetModuleFilename: 'assets/images/[hash][ext][query]',   
         clean: true,
@@ -32,17 +32,8 @@ module.exports = {
                 },
             },
             {
-                test: /\.html$/,
-                use: [
-                    {
-                        loader: "html-loader",
-                    },
-                ],
-            },
-            {
                 test: /\.css$/i,
-                use: [
-                    MiniCssExtractPlugin.loader,
+                use: [                    
                     "style-loader",
                     "css-loader",
                 ]
@@ -71,6 +62,10 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, "src", "assets/skillset"),
                     to: "assets/skillset"
+                },
+                {
+                    from: path.resolve(__dirname, "src", "assets/download"),
+                    to: "assets/download"
                 }
             ]
         })

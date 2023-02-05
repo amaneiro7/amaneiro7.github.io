@@ -1,53 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {useForm, ValidationError} from '@formspree/react'
+import { Form } from './Form';
+import { SentMessage } from './SentMessage';
 import './Contact.css'
 
 export function Contact() {
-    const [ state, handleSubmit] = useForm("mwkjvdyb")
-    if (state.succeeded) {
-        return <p>
-            Thanks for contact me!
-        </p>
-    }
+    const [ state, handleSubmit] = useForm("mwkjvdyb");
+    const [ inputEmail, setInputEmail ] = useState("");
+    const [ inputMessage, setInputMessage ] = useState("");   
+
+
     return (
         <section id='contact'>
             <h3>CONTACT</h3>
             <hr />
             <div>
-                <form onSubmit={handleSubmit}>
-                    <label htmlFor="email">
-                        Email Address:
-                    </label>
-                    <input
-                        id="email"
-                        type="email"
-                        name="email"
+                {!state.succeeded && 
+                    <Form 
+                        handleSubmit={handleSubmit}
+                        state={state}
+                        inputEmail={inputEmail}
+                        inputMessage={inputMessage}
+                        setInputEmail={setInputEmail}
+                        setInputMessage={setInputMessage}
                     />
-                    <ValidationError
-                        prefix="Email"
-                        field="email"
-                        errors={state.errors}
+                }
+                {state.succeeded &&
+                    <SentMessage 
+                        state={state}
+                        setInputEmail={setInputEmail}
+                        setInputMessage={setInputMessage}
+                        handleSubmit={handleSubmit}
                     />
-                    <label htmlFor="">
-                        Your message:
-                    </label>
-                    <textarea
-                        id="message"
-                        name="message"
-                    />
-                    <ValidationError
-                        prefix="Message"
-                        field="message"
-                        errors={state.errors}
-                    />
-                    <button 
-                        type="submit" 
-                        disabled={state.submitting}
-                        onClick={()=> onHandleclik}
-                    >
-                            Send
-                    </button>
-                </form>
+                }
+
             </div>
             <ul>
                 <li>
