@@ -1109,7 +1109,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#aboutme p {\r\n    text-indent: 4rem;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\r\n    margin: 1rem;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk2);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n}\r\n\r\n#achievements img {\r\n    border-radius: 1rem;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 60px;\r\n    width: auto;\r\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 512:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(81);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#button {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin-top: 3rem;\r\n    padding: 1rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n#button:hover {\r\n    background-color: var(--bk-action-h);\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1132,7 +1155,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "", ""]);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#contact form {\r\n    font-size: 1.8rem;\r\n    color: var(--lt-tx);\r\n}\r\n\r\n#form label {\r\n    display: block;\r\n    margin: 0;\r\n    width: 50%;\r\n}\r\n\r\n#contact input, \r\n#contact textarea {\r\n    color: var(--lt-tx2);\r\n    background-color: var(--lt-bk3);\r\n    border: none;\r\n    box-shadow: none;\r\n    cursor: context-menu;\r\n    margin: 1rem 0 2rem;\r\n    padding: 1rem;\r\n    width: 100%;\r\n}\r\n#contact input:focus, \r\n#contact input:hover, \r\n#contact textarea:focus, \r\n#contact textarea:hover {\r\n    background-color: var(--lt-bk4);\r\n}\r\n\r\n#contact textarea {\r\n    resize: none;\r\n    overflow: auto;\r\n}\r\n\r\n#contact form button {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin: 3rem;\r\n    padding: 1.6rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n#contact form button:hover {\r\n    background-color: var(--bk-action-h);\r\n}\r\n\r\n#contact ul {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    list-style: none;\r\n}\r\n\r\n#contact img {\r\n    width: 45px;\r\n    height: 45px;\r\n    border: 1.5px solid var(--lt-bk3); \r\n    border-radius: 50%;\r\n    background-color: var(--lt-bk3);\r\n    \r\n    \r\n    margin: 1rem;\r\n    transition: all .3s ease;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\r\n#contact form,\r\n.SentMessage {\r\n    padding: 3rem;\r\n    width: 60%;\r\n    height: 400px;    \r\n    font-size: 1.8rem;\r\n    background-color: var(--lt-bk2);\r\n    color: var(--lt-tx);\r\n    border: 1px solid var(--lt-bk3);    \r\n    text-align: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#form label {\r\n    display: block;\r\n    margin: 0;\r\n    width: 50%;\r\n}\r\n\r\n#contact input, \r\n#contact textarea {\r\n    color: var(--lt-tx2);\r\n    background-color: var(--lt-bk3);\r\n    border: none;\r\n    box-shadow: none;\r\n    cursor: context-menu;\r\n    margin: 1rem 0 2rem;\r\n    padding: 1rem;\r\n    width: 100%;\r\n}\r\n#contact input:focus, \r\n#contact input:hover, \r\n#contact textarea:focus, \r\n#contact textarea:hover {\r\n    background-color: var(--lt-bk4);\r\n}\r\n\r\n#contact textarea {\r\n    resize: none;\r\n    overflow: auto;\r\n}\r\n\r\n.contact__btn {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin: 3rem;\r\n    padding: 1.6rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n.contact__btn:hover {\r\n    background-color: var(--bk-action-h);\r\n}\r\n\r\n#contact ul {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    list-style: none;\r\n}\r\n\r\n#contact img {\r\n    width: 45px;\r\n    height: 45px;\r\n    border: 1.5px solid var(--lt-bk3); \r\n    border-radius: 50%;\r\n    background-color: var(--lt-bk3); \r\n    margin: 1rem;\r\n    transition: all .3s ease;\r\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1276,7 +1299,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n\r\n    /* Light Theme LT */\r\n    --lt-bk1:#FFFFFF;\r\n    --lt-bk2:#F6F8FA;\r\n    --lt-bk3:#00BDD6;\r\n    --lt-bk4:#00B0C7;\r\n    --lt-tx:#24292F;\r\n    --lt-tx2: #F8FFFF;\r\n    --lt-tx3:#0669Da;\r\n    /* Dark Theme DT */\r\n    --dt-bk1:#0D1117;\r\n    --dt-bk2: #161B22;\r\n    --dt-bk3: #132339;\r\n    --dt-tx: #c9d1dc9;\r\n    --dt-tx2: #58A6FF;\r\n\r\n    /* actions button */\r\n    --bk-action: #3798FF;\r\n    --bk-action-h:#0969DA;\r\n    --tx-action: #F8FFFF;\r\n    --black1: #323333;\r\n    --black2: #2A2B2B;\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;    \r\n}\r\n\r\nhtml {\r\n    font-family: 'Montserrat', sans-serif;\r\n    text-align: center;\r\n    background-color: var(--lt-bk);\r\n    color: var(--lt-tx);\r\n    font-size: 62.5%;\r\n    line-height: 1.15;\r\n}\r\n\r\nh1,h2,h3 {\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\nh1,h3 {\r\n    font-size: 3rem;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\nh2 {\r\n    text-transform: capitalize;\r\n    font-size: 2rem;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {    \r\n    letter-spacing: .5rem;\r\n    margin-bottom: 5rem;\r\n}\r\n\r\np {\r\n    padding: 0 2rem;\r\n    text-align: justify;\r\n    font-size: 1.8rem;    \r\n    font-weight: 400;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\na {\r\n    font-size: 1.8rem;\r\n    text-decoration: none;\r\n    color: var(--lt-tx);\r\n}\r\n\r\nsmall {\r\n    font-size: 1.2rem;\r\n    margin-left: .8rem;\r\n}\r\n\r\nhr {\r\n    border: 0;\r\n    height: .1rem; \r\n    max-width: 100%;    \r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nheader {\r\n    width: 100%;\r\n    height: auto;    \r\n    padding: 5rem 0 0;\r\n    position: relative;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n}\r\n\r\nmain {\r\n    padding-top: 3rem;\r\n}\r\n\r\nmain section {\r\n    padding: 6rem 0 3rem;\r\n}\r\n\r\nmain section>div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    padding: 6rem 10rem;\r\n}\r\n\r\nmain section:nth-child(even) {\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    color: var(--lt-tx2);\r\n}\r\n\r\nmain section:nth-child(even) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain section:nth-child(odd) {\r\n    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));\r\n    color: var(--lt-tx);\r\n}\r\n\r\nmain section:nth-child(odd) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n\r\n    /* Light Theme LT */\r\n    --lt-bk1:#FFFFFF;\r\n    --lt-bk2:#F6F8FA;\r\n    --lt-bk3:#00BDD6;\r\n    --lt-bk4:#00B0C7;\r\n    --lt-tx:#24292F;\r\n    --lt-tx2: #F8FFFF;\r\n    --lt-tx3:#0669Da;\r\n    /* Dark Theme DT */\r\n    --dt-bk1:#0D1117;\r\n    --dt-bk2: #161B22;\r\n    --dt-bk3: #132339;\r\n    --dt-tx: #c9d1dc9;\r\n    --dt-tx2: #58A6FF;\r\n\r\n    /* actions button */\r\n    --bk-action: #3798FF;\r\n    --bk-action-h:#0969DA;\r\n    --tx-action: #F8FFFF;\r\n    --black1: #323333;\r\n    --black2: #2A2B2B;\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;    \r\n}\r\n\r\nhtml {\r\n    font-family: 'Montserrat', sans-serif;\r\n    text-align: center;\r\n    background-color: var(--lt-bk);\r\n    color: var(--lt-tx);\r\n    font-size: 62.5%;\r\n    line-height: 1.15;\r\n}\r\n\r\nh1,h2,h3 {\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\nh1,h3 {\r\n    font-size: 3rem;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\nh2 {\r\n    text-transform: capitalize;\r\n    font-size: 2rem;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {    \r\n    letter-spacing: .5rem;\r\n    margin-bottom: 5rem;\r\n}\r\n\r\np {\r\n    padding: 0 2rem;\r\n    text-align: justify;\r\n    font-size: 1.8rem;    \r\n    font-weight: 400;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\na {\r\n    font-size: 1.8rem;\r\n    text-decoration: none;\r\n    color: var(--lt-tx);\r\n}\r\n\r\nsmall {\r\n    font-size: 1.2rem;\r\n    margin-left: .8rem;\r\n}\r\n\r\nhr {\r\n    border: 0;\r\n    height: .1rem; \r\n    max-width: 100%;    \r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nheader {\r\n    width: 100%;\r\n    height: auto;    \r\n    padding: 5rem 0 0;\r\n    position: relative;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n}\r\n\r\nmain {\r\n    padding-top: 3rem;\r\n}\r\n\r\nmain section {\r\n    padding: 6rem 0 3rem;\r\n}\r\n\r\nmain section>div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 6rem 10rem;\r\n}\r\n\r\nmain section:nth-child(even) {\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    color: var(--lt-tx2);\r\n}\r\n\r\nmain section:nth-child(even) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain section:nth-child(odd) {\r\n    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));\r\n    color: var(--lt-tx);\r\n}\r\n\r\nmain section:nth-child(odd) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2000,7 +2023,7 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ 777:
+/***/ 569:
 /***/ ((module) => {
 
 "use strict";
@@ -2187,7 +2210,7 @@ module.exports = styleTagTransform;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/images/d830520156b398f81fe7.png";
+module.exports = __webpack_require__.p + "assets/images/a9f6e9c35971b0f82d10.png";
 
 /***/ })
 
@@ -2371,7 +2394,7 @@ var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(inject
 var styleDomAPI = __webpack_require__(795);
 var styleDomAPI_default = /*#__PURE__*/__webpack_require__.n(styleDomAPI);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertBySelector.js
-var insertBySelector = __webpack_require__(777);
+var insertBySelector = __webpack_require__(569);
 var insertBySelector_default = /*#__PURE__*/__webpack_require__.n(insertBySelector);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js
 var setAttributesWithoutAttributes = __webpack_require__(565);
@@ -2743,16 +2766,77 @@ var Achievements_update = injectStylesIntoStyleTag_default()(Achievements/* defa
 
        /* harmony default export */ const Achievements_Achievements = (Achievements/* default */.Z && Achievements/* default.locals */.Z.locals ? Achievements/* default.locals */.Z.locals : undefined);
 
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/Button/Button.css
+var Button = __webpack_require__(512);
+;// CONCATENATED MODULE: ./src/Components/Button/Button.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var Button_options = {};
+
+Button_options.styleTagTransform = (styleTagTransform_default());
+Button_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      Button_options.insert = insertBySelector_default().bind(null, "head");
+    
+Button_options.domAPI = (styleDomAPI_default());
+Button_options.insertStyleElement = (insertStyleElement_default());
+
+var Button_update = injectStylesIntoStyleTag_default()(Button/* default */.Z, Button_options);
+
+
+
+
+       /* harmony default export */ const Button_Button = (Button/* default */.Z && Button/* default.locals */.Z.locals ? Button/* default.locals */.Z.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/Components/Button/index.jsx
+
+
+function Components_Button_Button(props) {
+  var name = props.name,
+    type = props.type,
+    disabled = props.disabled,
+    onHandleButton = props.onHandleButton;
+  return /*#__PURE__*/react.createElement("button", {
+    id: "button",
+    type: type,
+    disabled: disabled,
+    onClick: onHandleButton
+  }, name);
+}
+;// CONCATENATED MODULE: ./src/Components/Achievements/AchievementsList.jsx
+
+
+function AchievementsList(_ref) {
+  var achievement = _ref.achievement;
+  return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("img", {
+    src: achievement.logo,
+    alt: "".concat(achievement.name, " logo")
+  }), /*#__PURE__*/react.createElement("small", null, achievement.name), /*#__PURE__*/react.createElement(Components_Button_Button, {
+    name: "View"
+  }));
+}
 ;// CONCATENATED MODULE: ./src/Components/Achievements/index.jsx
+
 
 
 function Components_Achievements_Achievements(_ref) {
   var achievementsDB = _ref.achievementsDB;
   return [/*#__PURE__*/react.createElement("section", {
     id: "achievements"
-  }, /*#__PURE__*/react.createElement("h3", null, "ACHIEVEMENTS"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("picture", null, /*#__PURE__*/react.createElement("img", {
-    src: "",
-    alt: ""
+  }, /*#__PURE__*/react.createElement("h3", null, "ACHIEVEMENTS"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, achievementsDB.map(function (achievement) {
+    return /*#__PURE__*/react.createElement(AchievementsList, {
+      key: achievement.id,
+      achievement: achievement
+    });
   })))];
 }
 // EXTERNAL MODULE: ./node_modules/@stripe/stripe-js/pure.js
@@ -2762,6 +2846,79 @@ var react_stripe_umd = __webpack_require__(664);
 ;// CONCATENATED MODULE: ./node_modules/@formspree/react/dist/index.mjs
 var Q=Object.create;var M=Object.defineProperty;var Z=Object.getOwnPropertyDescriptor;var q=Object.getOwnPropertyNames;var G=Object.getPrototypeOf,W=Object.prototype.hasOwnProperty;var X=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var ee=(e,t,r,s)=>{if(t&&typeof t=="object"||typeof t=="function")for(let o of q(t))!W.call(e,o)&&o!==r&&M(e,o,{get:()=>t[o],enumerable:!(s=Z(t,o))||s.enumerable});return e};var A=(e,t,r)=>(r=e!=null?Q(G(e)):{},ee(t||!e||!e.__esModule?M(r,"default",{value:e,enumerable:!0}):r,e));var C=X((Le,k)=>{"use strict";var w=Object.defineProperty,te=Object.getOwnPropertyDescriptor,re=Object.getOwnPropertyNames,oe=Object.prototype.hasOwnProperty,se=(e,t)=>{for(var r in t)w(e,r,{get:t[r],enumerable:!0})},ne=(e,t,r,s)=>{if(t&&typeof t=="object"||typeof t=="function")for(let o of re(t))!oe.call(e,o)&&o!==r&&w(e,o,{get:()=>t[o],enumerable:!(s=te(t,o))||s.enumerable});return e},ie=e=>ne(w({},"__esModule",{value:!0}),e),N={};se(N,{Client:()=>L,createClient:()=>Y,getDefaultClient:()=>be,isFieldError:()=>le});k.exports=ie(N);var h="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",ae=/^(?:[A-Za-z\d+\/]{4})*?(?:[A-Za-z\d+\/]{2}(?:==)?|[A-Za-z\d+\/]{3}=?)?$/;function de(e){e=String(e);for(var t,r,s,o,n="",m=0,l=e.length%3;m<e.length;){if((r=e.charCodeAt(m++))>255||(s=e.charCodeAt(m++))>255||(o=e.charCodeAt(m++))>255)throw new TypeError("Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.");t=r<<16|s<<8|o,n+=h.charAt(t>>18&63)+h.charAt(t>>12&63)+h.charAt(t>>6&63)+h.charAt(t&63)}return l?n.slice(0,l-3)+"===".substring(l):n}function pe(e){if(e=String(e).replace(/[\t\n\f\r ]+/g,""),!ae.test(e))throw new TypeError("Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.");e+="==".slice(2-(e.length&3));for(var t,r="",s,o,n=0;n<e.length;)t=h.indexOf(e.charAt(n++))<<18|h.indexOf(e.charAt(n++))<<12|(s=h.indexOf(e.charAt(n++)))<<6|(o=h.indexOf(e.charAt(n++))),r+=s===64?String.fromCharCode(t>>16&255):o===64?String.fromCharCode(t>>16&255,t>>8&255):String.fromCharCode(t>>16&255,t>>8&255,t&255);return r}var me="2.8.1",U=(e=>(e.REQUIRED_FIELD_MISSING="REQUIRED_FIELD_MISSING",e.REQUIRED_FIELD_EMPTY="REQUIRED_FIELD_EMPTY",e.TYPE_EMAIL="TYPE_EMAIL",e.TYPE_NUMERIC="TYPE_NUMERIC",e.TYPE_TEXT="TYPE_TEXT",e))(U||{});function le(e){return e.code in U&&e.field!==void 0}function ce(e){return e.errors!==void 0}var ue=e=>de(JSON.stringify(e)),fe=e=>{let t=`@formspree/core@${me}`;return e?`${e} ${t}`:t},ye=()=>1*new Date,b=(e,t,r)=>{e instanceof FormData?e.append(t,r):e=Object.assign(e,{[t]:r})},he=async({stripePromise:e,response:t,responseData:r,payload:s,data:o,fetchImpl:n,request:m,url:l})=>{let f=await e.handleCardAction(r.stripe.paymentIntentClientSecret);if(f.error)return{response:t,body:{errors:[{code:"STRIPE_CLIENT_ERROR",message:"Stripe SCA error",field:"paymentMethod"}]}};{s.paymentMethod.id||b(o,"paymentMethod",s.paymentMethod.id),b(o,"paymentIntent",f.paymentIntent.id),b(o,"resubmitKey",r.resubmitKey);let p=await n(l,{...m,body:JSON.stringify({paymentIntent:f.paymentIntent.id,resubmitKey:r.resubmitKey})}),c=await p.json();return{response:p,body:c}}};function O({body:e,response:t}){return!ce(e)&&(e==null?void 0:e.error)&&(e={errors:[{message:e.error}]}),{body:e,response:t}}var Ee=()=>navigator.webdriver||!!document.documentElement.getAttribute(pe("d2ViZHJpdmVy"))||!!window.callPhantom||!!window._phantom,ge=class{constructor(){this.loadedAt=ye(),this.webdriver=Ee()}teardown(){}data(){return{loadedAt:this.loadedAt,webdriver:this.webdriver}}},L=class{constructor(e={}){this.project=e.project,this.stripePromise=e.stripePromise,typeof window<"u"&&this.startBrowserSession()}startBrowserSession(){this.session||(this.session=new ge)}teardown(){this.session&&this.session.teardown()}async submitForm(e,t,r={}){let s=r.endpoint||"https://formspree.io",o=r.fetchImpl||fetch,n=this.project?`${s}/p/${this.project}/f/${e}`:`${s}/f/${e}`,m=p=>p instanceof FormData?p:JSON.stringify(p),l={Accept:"application/json","Formspree-Client":fe(r.clientName)};this.session&&(l["Formspree-Session-Data"]=ue(this.session.data())),t instanceof FormData||(l["Content-Type"]="application/json");let f={method:"POST",mode:"cors",body:m(t),headers:l};if(this.stripePromise&&r.createPaymentMethod){let p=await r.createPaymentMethod();if(p.error)return{response:null,body:{errors:[{code:"STRIPE_CLIENT_ERROR",message:"Error creating payment method",field:"paymentMethod"}]}};b(t,"paymentMethod",p.paymentMethod.id);let c=await o(n,{...f,body:t}),y=await c.json();return y&&y.stripe&&y.stripe.requiresAction&&y.resubmitKey?await he({stripePromise:this.stripePromise,responseData:y,response:c,payload:p,data:t,fetchImpl:o,request:f,url:n}):O({response:c,body:y})}else return o(n,f).then(p=>p.json().then(c=>O({body:c,response:p}))).catch()}},Y=e=>new L(e),be=()=>(v||(v=Y()),v),v});var F=A(C());var ve=(0,react.lazy)(()=>Promise.resolve(/* import() */).then(__webpack_require__.t.bind(__webpack_require__, 664, 19)).then(e=>({default:e.Elements}))),j=react.createContext({client:void 0});j.displayName="Formspree";var _,we=e=>(_||(_=Se(e)),_),V=(e,t)=>{let r={};return e&&(r.stripePromise=e),t&&(r.project=t),(0,F.createClient)(r)},Ce=e=>{let[t,r]=K(void 0),[s,o]=K(V(t,e.project));return D(()=>(s.startBrowserSession(),()=>{s.teardown()}),[]),D(()=>{let n=async()=>{let m=await we(e.stripePK);r(m)};e.stripePK&&n()},[e.stripePK]),D(()=>{t&&o(V(t,e.project))},[t]),u.createElement(j.Provider,{value:{client:s}},e.stripePK?u.createElement(u.Fragment,null,t&&u.createElement(Pe,{fallback:u.createElement("p",null,"....")},u.createElement(ve,{stripe:t},u.createElement(u.Fragment,null,e.children)))):u.createElement(u.Fragment,null,e.children))};function T(){let e=(0,react.useContext)(j);return e.client?e:{client:(0,F.getDefaultClient)()}}var $="2.4.1";var Te=e=>e.preventDefault!==void 0,Ie=(e,t={})=>{let[r,s]=(0,react.useState)(null),[o,n]=(0,react.useState)(!1),[m,l]=(0,react.useState)(!1),[f,p]=(0,react.useState)([]),c=T(),y=t.client||c,I,R;if(!y)throw new Error("You must provide a Formspree client");if(!e)throw new Error('You must provide a form key or hashid (e.g. useForm("myForm") or useForm("123xyz")');c.client&&c.client.stripePromise&&(I=(0,react_stripe_umd.useStripe)(),R=(0,react_stripe_umd.useElements)());let g=!!t.debug,E=t.data;return[{result:r,submitting:o,succeeded:m,errors:f},async P=>{let B=async i=>{i.preventDefault();let d=i.target;if(d.tagName!="FORM")throw new Error("submit was triggered for a non-form element");return new FormData(d)},a=Te(P)?await B(P):P,H=(i,d)=>{a instanceof FormData?a.append(i,d):a=Object.assign(a,{[i]:d})};if(typeof E=="object")for(let i in E){let d;typeof E[i]=="function"?(d=E[i].call(null),typeof(d==null?void 0:d.then)=="function"&&(d=await d)):d=E[i],d!==void 0&&H(i,d)}let J=async()=>{let i={...a.address_line1&&{line1:a.address_line1},...a.address_line2&&{line2:a.address_line2},...a.address_city&&{city:a.address_city},...a.address_country&&{country:a.address_country},...a.address_state&&{state:a.address_state},...a.address_postal_code&&{postal_code:a.address_postal_code}};return await I.createPaymentMethod({type:"card",card:R.getElement(react_stripe_umd.CardElement),billing_details:{...a.name&&{name:a.name},...a.email&&{email:a.email},...a.phone&&{phone:a.phone},...i&&{address:i}}})};return n(!0),c.client.submitForm(e,a,{endpoint:t.endpoint,clientName:`@formspree/react@${$}`,createPaymentMethod:c.client&&c.client.stripePromise?J:void 0}).then(i=>{let d=i.response.status,S;return d===200?(g&&console.log("Form submitted",i),l(!0),s(i),p([])):d>=400&&(S=i.body,S.errors?(p(S.errors),g&&console.log("Error",i)):(p([{message:"Unexpected error"}]),g&&console.log("Unexpected error",i)),l(!1)),i}).catch(i=>{throw g&&console.log("Unexpected error",i),l(!1),i}).finally(()=>{n(!1)})},()=>{n(!1),l(!1),p([])}]};var Me=e=>{let{prefix:t,field:r,errors:s,...o}=e,n=(s||[]).find(m=>m.field===r);return n?react.createElement("div",{...o},t," ",n.message):null};var Ae=A(C());var export_isFieldError=Ae.isFieldError;
 
+;// CONCATENATED MODULE: ./src/Components/Contact/Form.jsx
+
+
+
+function Form(_ref) {
+  var handleSubmit = _ref.handleSubmit,
+    state = _ref.state,
+    inputEmail = _ref.inputEmail,
+    inputMessage = _ref.inputMessage,
+    setInputEmail = _ref.setInputEmail,
+    setInputMessage = _ref.setInputMessage;
+  var onChangeInputEmail = function onChangeInputEmail(_ref2) {
+    var value = _ref2.target.value;
+    setInputEmail(value);
+  };
+  var onChangeInputMessage = function onChangeInputMessage(_ref3) {
+    var value = _ref3.target.value;
+    setInputMessage(value);
+  };
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("form", {
+    onSubmit: handleSubmit
+  }, /*#__PURE__*/react.createElement("label", {
+    htmlFor: "email"
+  }, "Email Address:"), /*#__PURE__*/react.createElement("input", {
+    id: "email",
+    type: "email",
+    name: "email",
+    required: true,
+    value: inputEmail,
+    onChange: onChangeInputEmail
+  }), /*#__PURE__*/react.createElement(Me, {
+    prefix: "Email",
+    field: "email",
+    errors: state.errors
+  }), /*#__PURE__*/react.createElement("label", {
+    htmlFor: ""
+  }, "Your message:"), /*#__PURE__*/react.createElement("textarea", {
+    id: "message",
+    name: "message",
+    value: inputMessage,
+    onChange: onChangeInputMessage,
+    required: true
+  }), /*#__PURE__*/react.createElement(Me, {
+    prefix: "Message",
+    field: "message",
+    errors: state.errors
+  }), /*#__PURE__*/react.createElement(Components_Button_Button, {
+    name: "Send",
+    type: "submit",
+    disabled: state.disabled
+  })));
+}
+;// CONCATENATED MODULE: ./src/Components/Contact/SentMessage.jsx
+
+
+function SentMessage(_ref) {
+  var state = _ref.state,
+    handleSubmit = _ref.handleSubmit,
+    setInputEmail = _ref.setInputEmail,
+    setInputMessage = _ref.setInputMessage;
+  var onHandleButton = function onHandleButton() {
+    setInputEmail("");
+    setInputMessage("");
+    handleSubmit(!state.succeeded);
+  };
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
+    className: "SentMessage"
+  }, /*#__PURE__*/react.createElement("h2", null, "Thanks!"), /*#__PURE__*/react.createElement("p", null, "The form has been sent succesfully"), /*#__PURE__*/react.createElement(Components_Button_Button, {
+    type: "buttton",
+    name: "Sent a new message",
+    onHandleButton: onHandleButton
+  })));
+}
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/Contact/Contact.css
 var Contact = __webpack_require__(781);
 ;// CONCATENATED MODULE: ./src/Components/Contact/Contact.css
@@ -2798,44 +2955,36 @@ var Contact_update = injectStylesIntoStyleTag_default()(Contact/* default */.Z, 
 
 
 
+
+
 function Components_Contact_Contact() {
   var _useForm = Ie("mwkjvdyb"),
     _useForm2 = _slicedToArray(_useForm, 2),
     state = _useForm2[0],
     handleSubmit = _useForm2[1];
-  if (state.succeeded) {
-    return /*#__PURE__*/react.createElement("p", null, "Thanks for contact me!");
-  }
+  var _useState = (0,react.useState)(""),
+    _useState2 = _slicedToArray(_useState, 2),
+    inputEmail = _useState2[0],
+    setInputEmail = _useState2[1];
+  var _useState3 = (0,react.useState)(""),
+    _useState4 = _slicedToArray(_useState3, 2),
+    inputMessage = _useState4[0],
+    setInputMessage = _useState4[1];
   return /*#__PURE__*/react.createElement("section", {
     id: "contact"
-  }, /*#__PURE__*/react.createElement("h3", null, "CONTACT"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("form", {
-    onSubmit: handleSubmit
-  }, /*#__PURE__*/react.createElement("label", {
-    htmlFor: "email"
-  }, "Email Address:"), /*#__PURE__*/react.createElement("input", {
-    id: "email",
-    type: "email",
-    name: "email"
-  }), /*#__PURE__*/react.createElement(Me, {
-    prefix: "Email",
-    field: "email",
-    errors: state.errors
-  }), /*#__PURE__*/react.createElement("label", {
-    htmlFor: ""
-  }, "Your message:"), /*#__PURE__*/react.createElement("textarea", {
-    id: "message",
-    name: "message"
-  }), /*#__PURE__*/react.createElement(Me, {
-    prefix: "Message",
-    field: "message",
-    errors: state.errors
-  }), /*#__PURE__*/react.createElement("button", {
-    type: "submit",
-    disabled: state.submitting,
-    onClick: function onClick() {
-      return onHandleclik;
-    }
-  }, "Send"))), /*#__PURE__*/react.createElement("ul", null, /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
+  }, /*#__PURE__*/react.createElement("h3", null, "CONTACT"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, !state.succeeded && /*#__PURE__*/react.createElement(Form, {
+    handleSubmit: handleSubmit,
+    state: state,
+    inputEmail: inputEmail,
+    inputMessage: inputMessage,
+    setInputEmail: setInputEmail,
+    setInputMessage: setInputMessage
+  }), state.succeeded && /*#__PURE__*/react.createElement(SentMessage, {
+    state: state,
+    setInputEmail: setInputEmail,
+    setInputMessage: setInputMessage,
+    handleSubmit: handleSubmit
+  })), /*#__PURE__*/react.createElement("ul", null, /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
     href: "https://www.linkedin.com/in/amaneiro7/"
   }, /*#__PURE__*/react.createElement("img", {
     src: "../../assets/images/linkedin.svg",
@@ -2927,7 +3076,25 @@ var skillsetDB = [{
   image: "../../assets/skillset/node-js.svg"
 }];
 var portfolioDB = [];
-var achievementsDB = [];
+var achievementsDB = [{
+  name: "Azure Fundamentals",
+  Title: "Certificate",
+  otorged_by: "Microsoft",
+  logo: "../assets/achievements-icon/microsoft-certified-fundamentals-badge.svg",
+  image: "../assets/achievements/Microsoft_Certified-Azure_Fundamentals.jpg"
+}, {
+  name: "New Relic: Full Stack Observability",
+  Title: "Certificate",
+  otorged_by: "New Relic University",
+  logo: "../assets/achievements-icon/new-relic.png",
+  image: "../assets/achievements/New_Relic-Full_Stack_Obserbavility.jpg"
+}, {
+  name: "",
+  Title: "",
+  otorged_by: "",
+  logo: "",
+  image: ""
+}];
 ;// CONCATENATED MODULE: ./src/App/index.js
 
 

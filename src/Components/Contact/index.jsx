@@ -37,22 +37,22 @@ export function Contact() {
             </div>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/amaneiro7/">
+                    <a href="https://www.linkedin.com/in/amaneiro7/" target={'_blank'}>
                         <img src="../../assets/images/linkedin.svg" alt="linkdIn" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/amaneiro7">
+                    <a href="https://github.com/amaneiro7" target={'_blank'}>
                         <img src="../../assets/images/github.svg" alt="GitHub" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/Andruelectronic">
+                    <a href="https://twitter.com/Andruelectronic" target={'_blank'}>
                         <img src="../../assets/images/twitter.svg" alt="Twitter" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/amaneiro7/">
+                    <a href="https://www.instagram.com/amaneiro7/" target={'_blank'}>
                         <img src="../../assets/images/instagram.svg" alt="Instagram" />
                     </a>
                 </li>

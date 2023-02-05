@@ -57,11 +57,18 @@ import React from "react";
             image: "../assets/achievements/New_Relic-Full_Stack_Obserbavility.jpg",
         },
         {
-            name: "",
-            Title: "",
-            otorged_by: "",
-            logo: "",
-            image: "",
+            name: "HTML y CSS a Profundidad",
+            Title: "Diploma",
+            otorged_by: "Platzi",
+            logo: "../assets/achievements-icon/HTMLaProfundidad.webp",
+            image: "../assets/achievements/Platzi-Diploma_HTML_y_CSS_a_Profundidad.jpg",
+        },
+        {
+            name: "JavaScript a Profundidad",
+            Title: "Diploma",
+            otorged_by: "Platzi",
+            logo: "../assets/achievements-icon/JavaScriptaProfundidad.webp",
+            image: "../assets/achievements/Platzi-Diploma_JavaScrip_a_Profundidad.jpg",
         },
     ]
 

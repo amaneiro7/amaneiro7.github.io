@@ -64,6 +64,14 @@ module.exports = {
                     to: "assets/skillset"
                 },
                 {
+                    from: path.resolve(__dirname, "src", "assets/achievements"),
+                    to: "assets/achievements"
+                },
+                {
+                    from: path.resolve(__dirname, "src", "assets/achievements-icon"),
+                    to: "assets/achievements-icon"
+                },
+                {
                     from: path.resolve(__dirname, "src", "assets/download"),
                     to: "assets/download"
                 }
