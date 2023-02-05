@@ -3,6 +3,7 @@
 .SentMessage {
     padding: 3rem;
     width: 60%;
+    min-width: 350px;
     height: 400px;    
     font-size: 1.8rem;
     background-color: var(--lt-bk2);

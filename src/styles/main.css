@@ -84,7 +84,7 @@ a {
 
 small {
     font-size: 1.2rem;
-    margin-left: .8rem;
+    /* margin-left: .8rem; */
 }
 
 hr {
@@ -118,6 +118,12 @@ main section>div {
     justify-content: center;
     align-items: center;
     padding: 6rem 10rem;
+}
+
+@media (max-width: 500px) {
+    main section>div {
+        padding: 6rem 6rem
+    }
 }
 
 main section:nth-child(even) {

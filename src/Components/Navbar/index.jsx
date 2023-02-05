@@ -9,11 +9,9 @@ export function Navbar() {
                 <div className='navbar__container'>
                     <a href="/">
                         <img className='navbar__logo' src="./../../assets/images/profile-pic.png" alt="profile pic"/>
-                        <p>
-                            Andres Maneiro
-                            <small>
-                                IT Sopport | Frontend Developer
-                            </small>
+                        <p>Andres Maneiro
+                            <br />
+                            <small>IT Sopport | Frontend Developer</small>
                         </p>
                     </a>
                     <button className={`navbar__btn ${state && "active"}`}

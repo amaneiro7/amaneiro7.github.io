@@ -5,12 +5,13 @@
     box-shadow: 0 0 10px 1px var(--lt-bk3);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .navbar__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 1rem;
 }
 
@@ -40,14 +41,14 @@
 
 #navbar .navbar__btn {
     width: 45px;
-    max-height: min-content;
+    height: 40px;
     background-color: transparent;
     border: none;
     color: var(--lt-tx);
     cursor: pointer;
     font-size: 2.4rem;
     margin: .7rem;
-    padding: .2rm .7rem;
+    padding: .2rem .7rem;
     text-transform: none;    
 }
 
