@@ -8,9 +8,9 @@ export function Achievements({achievementsDB}) {
             <h3>ACHIEVEMENTS</h3>
             <hr />
             <div>
-                {achievementsDB.map(achievement => (
+                {achievementsDB.map((achievement, index) => (
                     <AchievementsList 
-                        key={achievement.id}
+                        key={index}
                         achievement={achievement}
                     />
                 ))}

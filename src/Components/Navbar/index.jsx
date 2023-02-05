@@ -25,11 +25,21 @@ export function Navbar() {
                     {state && 
                     <div className={`navbar__menu ${state && "active"}`}>
                         <ul>
-                            <li><a href="#aboutMe">About Me</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#skillset">Skillset</a></li>
-                            <li><a href="#achievements">Achievements</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li>
+                                <a href="#aboutMe">About Me</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#skillset">Skillset</a>
+                            </li>
+                            <li>
+                                <a href="#achievements">Achievements</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
                         </ul>
                     </div>
                     }

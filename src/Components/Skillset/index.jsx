@@ -8,9 +8,9 @@ export function Skillset({skillsetDB}) {
             <h3>SKILLSET</h3>
             <hr />
             <div>
-                {skillsetDB.map(skill => (
+                {skillsetDB.map((skill, index) => (
                     <SkillsetList 
-                        key={skill.id}
+                        key={index}
                         skill={skill}
                     />
                 ))}
