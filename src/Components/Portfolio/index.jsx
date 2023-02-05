@@ -8,9 +8,9 @@ export function Portfolio({portfolioDB}) {
             <h3>Portfolio</h3>
             <hr />
             <div>
-                {portfolioDB.map(project => (
+                {portfolioDB.map((project, index) => (
                     <PortfolioList 
-                        key={project.id}
+                        key={index}
                         project={project}
                     />
                 ))}

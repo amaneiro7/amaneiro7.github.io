@@ -60,6 +60,10 @@ module.exports = {
                     to: "assets/images"
                 },
                 {
+                    from: path.resolve(__dirname, "src", "assets/portfolio"),
+                    to: "assets/portfolio"
+                },
+                {
                     from: path.resolve(__dirname, "src", "assets/skillset"),
                     to: "assets/skillset"
                 },
