@@ -1116,6 +1116,29 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#aboutme p {\r\n    text-indent: 4rem;
 
 /***/ }),
 
+/***/ 716:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(81);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".AchievementCard {\r\n    width: auto;\r\n    height: 70%;\r\n    border-radius: 2px;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n    animation: fadeIn 1s;\r\n}\r\n\r\n@keyframes fadeIn {\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ 424:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -1132,7 +1155,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#aboutme p {\r\n    text-indent: 4rem;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk2);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease, background-color .3s ease;\r\n}\r\n\r\n#achievements>div>div:hover {\r\n    transform: scale(1.1);\r\n    background-color: var(--lt-bk4);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#achievements img {    \r\n    border-radius: 50%;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 65px;\r\n    width: 65px;\r\n    border: .5px solid var(--lt-bk3);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk1);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease;\r\n}\r\n\r\n#achievements>div>div:hover {\r\n    transform: scale(1.1);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#achievements img {    \r\n    border-radius: 50%;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 65px;\r\n    width: 65px;\r\n    border: .5px solid var(--lt-bk3);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1178,7 +1201,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#button {    \r\n    font-size: 1.4rem
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\r\n#contact form,\r\n.SentMessage {\r\n    padding: 3rem;\r\n    width: 60%;\r\n    min-width: 350px;\r\n    height: 400px;    \r\n    font-size: 1.8rem;\r\n    background-color: var(--lt-bk2);\r\n    color: var(--lt-tx);\r\n    border: 1px solid var(--lt-bk3);    \r\n    text-align: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#form label {\r\n    display: block;\r\n    margin: 0;\r\n    width: 50%;\r\n}\r\n\r\n#contact input, \r\n#contact textarea {    \r\n    color: var(--lt-tx2);\r\n    background-color: var(--lt-bk3);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n    border: none;\r\n    border-radius: .5rem;\r\n    box-shadow: none;\r\n    cursor: context-menu;\r\n    margin: 1rem 0 2rem;\r\n    padding: 1rem;\r\n    width: 100%;\r\n}\r\n#contact input:focus, \r\n#contact input:hover, \r\n#contact textarea:focus, \r\n#contact textarea:hover {\r\n    background-color: var(--lt-bk4);\r\n}\r\n\r\n#contact textarea {\r\n    resize: none;\r\n    overflow: auto;\r\n}\r\n\r\n.contact__btn {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin: 3rem;\r\n    padding: 1.6rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n.contact__btn:hover {\r\n    background-color: var(--bk-action-h);\r\n}\r\n\r\n#contact ul {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    list-style: none;\r\n}\r\n\r\n#contact img {\r\n    width: 45px;\r\n    height: 45px;\r\n    border: 1.5px solid var(--lt-bk3); \r\n    border-radius: 50%;\r\n    background-color: var(--lt-bk3); \r\n    margin: 1rem;\r\n    transition: all .3s ease;\r\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\r\n#contact form,\r\n.SentMessage {\r\n    padding: 3rem;\r\n    width: 60%;\r\n    min-width: 350px;\r\n    height: 400px;    \r\n    font-size: 1.8rem;\r\n    background-color: var(--lt-bk1);\r\n    color: var(--lt-tx);\r\n    border: 1px solid var(--lt-bk3);    \r\n    text-align: center;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#form label {\r\n    display: block;\r\n    margin: 0;\r\n    width: 50%;\r\n}\r\n\r\n#contact input, \r\n#contact textarea {    \r\n    color: var(--lt-tx);\r\n    border: 1px solid var(--lt-bk2);\r\n    background-color: var(--lt-bk1);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;    \r\n    border-radius: .5rem;\r\n    box-shadow: none;\r\n    cursor: text;\r\n    margin: 1rem 0 2rem;\r\n    padding: 1rem;\r\n    width: 100%;\r\n}\r\n#contact input:focus, \r\n#contact input:hover, \r\n#contact textarea:focus, \r\n#contact textarea:hover {\r\n    background-color: var(--lt-bk2);\r\n}\r\n\r\n#contact textarea {\r\n    resize: none;\r\n    overflow: auto;\r\n}\r\n\r\n.contact__btn {    \r\n    font-size: 1.8rem;\r\n    background-color: var(--bk-action);\r\n    color: var(--tx-action);\r\n    border: none;\r\n    border-radius: 1.5rem;\r\n    cursor: pointer;\r\n    margin: 3rem;\r\n    padding: 1.6rem;\r\n    transition: background-color .3s ease;\r\n}\r\n\r\n.contact__btn:hover {\r\n    background-color: var(--bk-action-h);\r\n}\r\n\r\n#contact ul {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    list-style: none;\r\n}\r\n\r\n#contact img {\r\n    width: 45px;\r\n    height: 45px;\r\n    border: 1.5px solid var(--lt-bk3); \r\n    border-radius: 50%;\r\n    background-color: var(--lt-bk3); \r\n    margin: 1rem;\r\n    transition: all .3s ease;\r\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1231,6 +1254,29 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".hero {\r\n    width: 100%;\r\n    hei
 
 /***/ }),
 
+/***/ 299:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(81);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".ModalBackground {\r\n    background: rgba(32,35,41,.8);\r\n    position: fixed;\r\n    top: -10px;\r\n    left: -10px;\r\n    right: -10px;\r\n    bottom: -10px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    color: white;    \r\n}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ 684:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -1270,7 +1316,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#navbar {\r\n    width: 100%;\r\n    h
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#portfolio>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#portfolio>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk2);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease, background-color .3s ease;\r\n}\r\n\r\n#portfolio>div>div:hover {\r\n    transform: scale(1.1);\r\n    background-color: var(--lt-bk4);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#portfolio>div>div small {\r\n    font-size: 1.4rem;\r\n    font-weight: 500;\r\n}\r\n\r\n#portfolio>div>div span {\r\n    font-size: 1.2rem;\r\n    margin-bottom: 2rem;\r\n}\r\n\r\n#portfolio img {\r\n    border-radius: 1rem;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 250px;\r\n    width: 200px;\r\n    object-fit: cover;\r\n    object-position: center;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#portfolio>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#portfolio>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk1);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease;\r\n}\r\n\r\n#portfolio>div>div:hover {\r\n    transform: scale(1.1);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#portfolio>div>div small {\r\n    font-size: 1.4rem;\r\n    font-weight: 500;\r\n}\r\n\r\n#portfolio>div>div span {\r\n    font-size: 1.2rem;\r\n    margin-bottom: 2rem;\r\n}\r\n\r\n#portfolio img {\r\n    border-radius: 1rem;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 250px;\r\n    width: 200px;\r\n    object-fit: cover;\r\n    object-position: center;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1322,7 +1368,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n\r\n    /* Light Theme LT */\r\n    --lt-bk1:#FFFFFF;\r\n    --lt-bk2:#F6F8FA;\r\n    --lt-bk3:#00BDD6;\r\n    --lt-bk4:#00B0C7;\r\n    --lt-tx:#24292F;\r\n    --lt-tx2: #F8FFFF;\r\n    --lt-tx3:#0669Da;\r\n    /* Dark Theme DT */\r\n    --dt-bk1:#0D1117;\r\n    --dt-bk2: #161B22;\r\n    --dt-bk3: #132339;\r\n    --dt-tx: #c9d1dc9;\r\n    --dt-tx2: #58A6FF;\r\n\r\n    /* actions button */\r\n    --bk-action: #3798FF;\r\n    --bk-action-h:#0969DA;\r\n    --tx-action: #F8FFFF;\r\n    --black1: #323333;\r\n    --black2: #2A2B2B;\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;    \r\n}\r\n\r\nhtml {\r\n    font-family: 'Montserrat', sans-serif;\r\n    text-align: center;\r\n    background-color: var(--lt-bk);\r\n    color: var(--lt-tx);\r\n    font-size: 62.5%;\r\n    line-height: 1.15;\r\n}\r\n\r\nh1,h2,h3 {\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\nh1,h3 {\r\n    font-size: 3rem;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\nh2 {\r\n    text-transform: capitalize;\r\n    font-size: 2rem;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {    \r\n    letter-spacing: .5rem;\r\n    margin-bottom: 5rem;\r\n}\r\n\r\np {\r\n    padding: 0 2rem;\r\n    text-align: justify;\r\n    font-size: 1.8rem;    \r\n    font-weight: 400;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\na {\r\n    font-size: 1.8rem;\r\n    text-decoration: none;\r\n    color: var(--lt-tx);\r\n}\r\n\r\nsmall {\r\n    font-size: 1.2rem;\r\n    /* margin-left: .8rem; */\r\n}\r\n\r\nhr {\r\n    border: 0;\r\n    height: .1rem; \r\n    max-width: 100%;    \r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nheader {\r\n    width: 100%;\r\n    height: auto;    \r\n    padding: 5rem 0 0;\r\n    position: relative;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n}\r\n\r\nmain {\r\n    padding-top: 3rem;\r\n}\r\n\r\nmain section {\r\n    padding: 6rem 0 3rem;\r\n}\r\n\r\nmain section>div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 6rem 10rem;\r\n}\r\n\r\n@media (max-width: 500px) {\r\n    main section>div {\r\n        padding: 6rem 6rem\r\n    }\r\n}\r\n\r\nmain section:nth-child(even) {\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    color: var(--lt-tx2);\r\n}\r\n\r\nmain section:nth-child(even) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain section:nth-child(odd) {\r\n    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));\r\n    color: var(--lt-tx);\r\n}\r\n\r\nmain section:nth-child(odd) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n\r\n    /* Light Theme LT */\r\n    --lt-bk1:#FFFFFF;\r\n    --lt-bk2:#d0d5db;\r\n    --lt-bk3:#00BDD6;\r\n    --lt-bk4:#00B0C7;\r\n    --lt-tx:#24292F;\r\n    --lt-tx2: #F8FFFF;\r\n    --lt-tx3:#0669Da;\r\n    /* Dark Theme DT */\r\n    --dt-bk1:#0D1117;\r\n    --dt-bk2: #161B22;\r\n    --dt-bk3: #132339;\r\n    --dt-tx: #c9d1dc9;\r\n    --dt-tx2: #58A6FF;\r\n\r\n    /* actions button */\r\n    --bk-action: #3798FF;\r\n    --bk-action-h:#0969DA;\r\n    --tx-action: #F8FFFF;\r\n    --black1: #323333;\r\n    --black2: #2A2B2B;\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;    \r\n}\r\n\r\nhtml {\r\n    font-family: 'Montserrat', sans-serif;\r\n    text-align: center;\r\n    background-color: var(--lt-bk);\r\n    color: var(--lt-tx);\r\n    font-size: 62.5%;\r\n    line-height: 1.15;\r\n}\r\n\r\nh1,h2,h3 {\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\nh1,h3 {\r\n    font-size: 3rem;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\nh2 {\r\n    text-transform: capitalize;\r\n    font-size: 2rem;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {    \r\n    letter-spacing: .5rem;\r\n    margin-bottom: 5rem;\r\n}\r\n\r\np {\r\n    padding: 0 2rem;\r\n    text-align: justify;\r\n    font-size: 1.8rem;    \r\n    font-weight: 400;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\na {\r\n    font-size: 1.8rem;\r\n    text-decoration: none;\r\n    color: var(--lt-tx);\r\n}\r\n\r\nsmall {\r\n    font-size: 1.2rem;    \r\n}\r\n\r\nhr {\r\n    border: 0;\r\n    height: .1rem; \r\n    max-width: 100%;    \r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nheader {\r\n    width: 100%;\r\n    height: auto;    \r\n    padding: 5rem 0 0;\r\n    position: relative;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n}\r\n\r\nmain {\r\n    padding-top: 3rem;\r\n}\r\n\r\nmain section {\r\n    padding: 6rem 0 3rem;\r\n}\r\n\r\nmain section>div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 6rem 10rem;\r\n}\r\n\r\n@media (max-width: 500px) {\r\n    main section>div {\r\n        padding: 6rem 6rem\r\n    }\r\n}\r\n\r\nmain section:nth-child(even) {\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    color: var(--lt-tx2);\r\n}\r\n\r\nmain section:nth-child(even) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain section:nth-child(odd) {\r\n    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));\r\n    color: var(--lt-tx);\r\n}\r\n\r\nmain section:nth-child(odd) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2834,6 +2880,96 @@ var Achievements_update = injectStylesIntoStyleTag_default()(Achievements/* defa
 
        /* harmony default export */ const Achievements_Achievements = (Achievements/* default */.Z && Achievements/* default.locals */.Z.locals ? Achievements/* default.locals */.Z.locals : undefined);
 
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/Modal/Modal.css
+var Modal = __webpack_require__(299);
+;// CONCATENATED MODULE: ./src/Components/Modal/Modal.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var Modal_options = {};
+
+Modal_options.styleTagTransform = (styleTagTransform_default());
+Modal_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      Modal_options.insert = insertBySelector_default().bind(null, "head");
+    
+Modal_options.domAPI = (styleDomAPI_default());
+Modal_options.insertStyleElement = (insertStyleElement_default());
+
+var Modal_update = injectStylesIntoStyleTag_default()(Modal/* default */.Z, Modal_options);
+
+
+
+
+       /* harmony default export */ const Modal_Modal = (Modal/* default */.Z && Modal/* default.locals */.Z.locals ? Modal/* default.locals */.Z.locals : undefined);
+
+// EXTERNAL MODULE: ./node_modules/react-dom/index.js
+var react_dom = __webpack_require__(935);
+;// CONCATENATED MODULE: ./src/Components/Modal/index.jsx
+
+
+
+function Components_Modal_Modal(_ref) {
+  var children = _ref.children,
+    onHandleButton = _ref.onHandleButton;
+  return /*#__PURE__*/(0,react_dom.createPortal)( /*#__PURE__*/react.createElement("div", {
+    className: "ModalBackground",
+    onClick: onHandleButton
+  }, children), document.getElementById('modal'));
+}
+;
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/AchievementCard/AchievementCard.css
+var AchievementCard = __webpack_require__(716);
+;// CONCATENATED MODULE: ./src/Components/AchievementCard/AchievementCard.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var AchievementCard_options = {};
+
+AchievementCard_options.styleTagTransform = (styleTagTransform_default());
+AchievementCard_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      AchievementCard_options.insert = insertBySelector_default().bind(null, "head");
+    
+AchievementCard_options.domAPI = (styleDomAPI_default());
+AchievementCard_options.insertStyleElement = (insertStyleElement_default());
+
+var AchievementCard_update = injectStylesIntoStyleTag_default()(AchievementCard/* default */.Z, AchievementCard_options);
+
+
+
+
+       /* harmony default export */ const AchievementCard_AchievementCard = (AchievementCard/* default */.Z && AchievementCard/* default.locals */.Z.locals ? AchievementCard/* default.locals */.Z.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/Components/AchievementCard/index.jsx
+
+
+function Components_AchievementCard_AchievementCard(_ref) {
+  var image = _ref.image,
+    name = _ref.name,
+    onHandleButton = _ref.onHandleButton;
+  return /*#__PURE__*/react.createElement("img", {
+    className: "AchievementCard",
+    src: image,
+    alt: name
+  });
+}
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/Button/Button.css
 var Button = __webpack_require__(512);
 ;// CONCATENATED MODULE: ./src/Components/Button/Button.css
@@ -2883,27 +3019,50 @@ function Components_Button_Button(props) {
 ;// CONCATENATED MODULE: ./src/Components/Achievements/AchievementsList.jsx
 
 
+
+
+
 function AchievementsList(_ref) {
   var achievement = _ref.achievement;
+  var _useState = (0,react.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    openModal = _useState2[0],
+    setOpenModal = _useState2[1];
+  var onHandleButton = function onHandleButton() {
+    return setOpenModal(!openModal);
+  };
+  var name = achievement.name,
+    Title = achievement.Title,
+    otorged_by = achievement.otorged_by,
+    logo = achievement.logo,
+    image = achievement.image;
   return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("img", {
-    src: achievement.logo,
-    alt: "".concat(achievement.name, " logo")
-  }), /*#__PURE__*/react.createElement("small", null, achievement.name), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("small", null, "Otorged by: ", achievement.otorged_by), /*#__PURE__*/react.createElement(Components_Button_Button, {
-    name: "View"
-  }));
+    src: logo,
+    alt: "".concat(name, " logo")
+  }), /*#__PURE__*/react.createElement("small", null, name), /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("small", null, "Otorged by: ", otorged_by), /*#__PURE__*/react.createElement(Components_Button_Button, {
+    name: "View",
+    onHandleButton: onHandleButton
+  }), openModal && /*#__PURE__*/react.createElement(Components_Modal_Modal, {
+    onHandleButton: onHandleButton
+  }, /*#__PURE__*/react.createElement(Components_AchievementCard_AchievementCard, {
+    image: image,
+    name: name
+  })));
 }
 ;// CONCATENATED MODULE: ./src/Components/Achievements/index.jsx
 
 
 
 function Components_Achievements_Achievements(_ref) {
-  var achievementsDB = _ref.achievementsDB;
+  var achievementsDB = _ref.achievementsDB,
+    setOpenModal = _ref.setOpenModal;
   return [/*#__PURE__*/react.createElement("section", {
     id: "achievements"
   }, /*#__PURE__*/react.createElement("h3", null, "ACHIEVEMENTS"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, achievementsDB.map(function (achievement, index) {
     return /*#__PURE__*/react.createElement(AchievementsList, {
       key: index,
-      achievement: achievement
+      achievement: achievement,
+      setOpenModal: setOpenModal
     });
   })))];
 }
@@ -2941,6 +3100,7 @@ function Form(_ref) {
     id: "email",
     type: "email",
     name: "email",
+    placeholder: "Introduce your email",
     required: true,
     value: inputEmail,
     onChange: onChangeInputEmail
@@ -2953,6 +3113,7 @@ function Form(_ref) {
   }, "Your message:"), /*#__PURE__*/react.createElement("textarea", {
     id: "message",
     name: "message",
+    placeholder: "Leave a message",
     value: inputMessage,
     onChange: onChangeInputMessage,
     required: true
@@ -3232,7 +3393,7 @@ var portfolioDB = [{
   deploy_link: "https://amaneiro7.github.io/HolaJuniorsReto/",
   repository_link: "https://github.com/amaneiro7/HolaJuniorsReto"
 }, {
-  name: "ToDO Machine",
+  name: "ToDo Machine",
   description: "This is a ToDo Machine realized of react course from platzi",
   image: "../assets/portfolio/todomachine.jpg",
   deploy_link: "https://amaneiro7.github.io/platzitodoreact/",
@@ -3255,18 +3416,18 @@ var achievementsDB = [{
   Title: "Certificate",
   otorged_by: "Microsoft",
   logo: "../assets/achievements-icon/microsoft-certified-fundamentals-badge.svg",
-  image: "../assets/achievements/Microsoft_Certified-Azure_Fundamentals.jpg"
+  image: "../assets/achievements/Azure_Fundamentals.jpg"
 }, {
   name: "New Relic: Full Stack Observability",
   Title: "Certificate",
   otorged_by: "New Relic University",
   logo: "../assets/achievements-icon/new-relic.png",
-  image: "../assets/achievements/New_Relic-Full_Stack_Obserbavility.jpg"
+  image: "../assets/achievements/Full_Stack_Obserbavility.jpg"
 }, {
   name: "HTML y CSS a Profundidad",
   Title: "Diploma",
   otorged_by: "Platzi",
-  logo: "../assets/achievements-icon/HTMLaProfundidad.webp",
+  logo: "../assets/achievements-icon//HTMLaProfundidad.webp",
   image: "../assets/achievements/Platzi-Diploma_HTML_y_CSS_a_Profundidad.jpg"
 }, {
   name: "JavaScript a Profundidad",
@@ -3274,6 +3435,426 @@ var achievementsDB = [{
   otorged_by: "Platzi",
   logo: "../assets/achievements-icon/JavaScriptaProfundidad.webp",
   image: "../assets/achievements/Platzi-Diploma_JavaScrip_a_Profundidad.jpg"
+}, {
+  name: "Administracion de Servidores Linux",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/servidores-linux.webp",
+  image: "../assets/achievements/Administracion-de-Servidores-Linux.jpg"
+}, {
+  name: "Animaciones con CSS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Animaciones-con-CSS.jpg"
+}, {
+  name: "Asincronismo con JavaScript.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Asincronismo-con-JavaScript.jpg"
+}, {
+  name: "Backend con Node.JS - API REST con Express.JS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Backend-con-Node.JS-API-REST-con-Express.JS.jpg"
+}, {
+  name: "Backend con Node.JS - Bases de Datos con PostgresSQL",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Backend-con-Node.JS-Bases-de-Datos-con-PostgresSQL.jpg"
+}, {
+  name: "Basico de Javascript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Basico-de-Javascript.jpg"
+}, {
+  name: "Basico de TailwindCSS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Basico-de-TailwindCSS.jpg"
+}, {
+  name: "Closure y Scope en JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Closure-y-Scope-en-JavaScript.jpg"
+}, {
+  name: "Complejidad Algoritmica con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Complejidad-Algoritmica-con-JavaScript.jpg"
+}, {
+  name: "Computacion Basica",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/piezas-computacion-basica.png",
+  image: "../assets/achievements/Computacion-Basica.jpg"
+}, {
+  name: "Consumo de API REST con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Consumo-de-API-REST-con-JavaScript.jpg"
+}, {
+  name: "CSS Grid Basico",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/CSS-Grid-Basico.jpg"
+}, {
+  name: "Conseguir Trabajo como Frontend Developer",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Curso-para-Conseguir-Trabajo-como-Frontend-Developer.jpg"
+}, {
+  name: "Debugging con Chrome DevTools",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Debugging-con-Chrome-DevTools.jpg"
+}, {
+  name: "Diseño para Programadores",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Diseño-para-Programadores.jpg"
+}, {
+  name: "Diseño Web con CSS Grid y Flexbox",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Diseño-Web-con-CSS-Grid-y-Flexbox.jpg"
+}, {
+  name: "Docker",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/docker.png",
+  image: "../assets/achievements/Docker.jpg"
+}, {
+  name: "ECMAScript - Historia y Versiones de JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/ECMAScript-HistoriaVersionesJavaScript.jpg"
+}, {
+  name: "Esctructura de Datos con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Esctructura-de-Datos-con-JavaScript.jpg"
+}, {
+  name: "Flujo de Desarrollo Moderno Codestream",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/flujo-desarrollo-codestream.webp",
+  image: "../assets/achievements/Flujo-de-Desarrollo-Moderno-Codestream.jpg"
+}, {
+  name: "Framework y Librerias de JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Framework-y-Librerias-de-JavaScript.jpg"
+}, {
+  name: "Frontend Developer",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Frontend-Developer.jpg"
+}, {
+  name: "Fundamentos de Bases de Datos",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/fundamentos-de-bases-de-datos.webp",
+  image: "../assets/achievements/Fundamentos-de-Bases-de-Datos.jpg"
+}, {
+  name: "Fundamentos de Ingeniria de Software",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/ing-software.webp",
+  image: "../assets/achievements/Fundamentos-de-Ingeniria-de-Software.jpg"
+}, {
+  name: "Fundamentos de Node.JS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Fundamentos-de-Node.JS.jpg"
+}, {
+  name: "HTML y CSS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/"
+}, {
+  name: "Inroduccion a ReactJS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Inroduccion-a-ReactJS.jpg"
+}, {
+  name: "Intermedio de Programacion Orientada a Objetos con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Intermedio-de-Programacion-Orientada-a-Objetos-con-JavaScript.jpg"
+}, {
+  name: "Introduccion a la nube con AZURE",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/introduccion-nube-azure.png",
+  image: "../assets/achievements/Introduccion-a-la-nube-con-AZURE.jpg"
+}, {
+  name: "Introduccion al Desarrollo Backend",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Introduccion-al-Desarrollo-Backend.jpg"
+}, {
+  name: "Introduccion a la terminal y linea de comandos",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Itroduccion-a-la-terminal-y-linea-de-comandos.jpg"
+}, {
+  name: "JavaScript Engine (V8) y el Navegador",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/JavaScript-Engine(V8)-y-el-Navegador.jpg"
+}, {
+  name: "Laboratorio de JavaScript FakeStore",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Laboratorio-de-JavaScript-FakeStore.jpg"
+}, {
+  name: "Laboratorio Profesional de JavaScript - Prueba Tecnica",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Laboratorio-Profesional-de-JavaScript-Prueba-Tecnica.jpg"
+}, {
+  name: "Manipulacion de Arrays en JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Manipulacion-de-Arrays-en-JavaScript.jpg"
+}, {
+  name: "New Relic - Observabilidad, Monitoreo y Performance Web",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/New Relic-Observabilidad,-Monitoreo-y-PerformanceWeb.webp",
+  image: "../assets/achievements/New Relic-Observabilidad,-Monitoreo-y-PerformanceWeb.jpg"
+}, {
+  name: "NPM - Gestion de Paquetes y Dependencias en JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript.jpg"
+}, {
+  name: "Organización y Productividad con Notion",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Organización-y-Productividad-con-Notion.jpg"
+}, {
+  name: "Pensamiento Logico - Algoritmos y Diagramas de Flujo",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/piezas_pensamiento-logico-algoritmos-diagramas-flujo.webp",
+  image: "../assets/achievements/Pensamiento-Logico-Algoritmos-y-Diagramas-de-Flujo.jpg"
+}, {
+  name: "Pensamiento Logico - Funciones y Estructuras de Control",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/piezas_pensamiento-logico-funciones-estructuras-control.webp",
+  image: "../assets/achievements/Pensamiento-Logico-FuncionesyEstructuras-de-Control.jpg"
+}, {
+  name: "Pensamiento Logico - Lenguajes de Programacion",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/piezas_pensamiento-lenguajes-programacion.webp",
+  image: "../assets/achievements/Pensamiento-Logico-Lenguajes-de-Programacion.jpg"
+}, {
+  name: "Audiocurso de Frameworks y Arquitecturas Frontend - Casos de Estudio.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Frameworks_y_Arquitecturas_Frontend-Casos-de-Estudio.jpg"
+}, {
+  name: "Practico de Animaciones con CSS.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-Animaciones-con-CSS.jpg"
+}, {
+  name: "Practico de Consumo de API REST con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-Consumo-de-API-REST-con-JavaScript.jpg"
+}, {
+  name: "Practico de Frontend Developer",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-Frontend-Developer.jpg"
+}, {
+  name: "Practico de HTML y CSS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-HTML-y-CSS.jpg"
+}, {
+  name: "Practico de JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-JavaScript.jpg"
+}, {
+  name: "Practico de Maquetacion en CSS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-Maquetacion-en-CSS.jpg"
+}, {
+  name: "Practico de NextJS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-NextJS.jpg"
+}, {
+  name: "Practico de ReactJS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Practico-de-ReactJS.jpg"
+}, {
+  name: "Prework - Configuracion de Entorno de Desarrollo de Windows",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/prework-configuracion-entorno-windows.png",
+  image: "../assets/achievements/Prework-Configuracion-de-Entorno-de-Desarrollo-de-Windows.jpg"
+}, {
+  name: "Prework - Configuracion de Entorno de Desarrollo en Linux",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/prework-linux.png",
+  image: "../assets/achievements/Prework-Configuracion-de-Entorno-de-Desarrollo-en-Linux.jpg"
+}, {
+  name: "Prework - Configuracion de Entorno de Desarrollo en MacOS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/prework-configuracion-entorno-mac.png",
+  image: "../assets/achievements/Prework-Configuracion-de-Entorno-de-Desarrollo-en-MacOS.jpg"
+}, {
+  name: "Profesional de Consumo de API REST con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Profesional-de-Consumo-de-API-REST-con-JavaScript.jpg"
+}, {
+  name: "Profesional de CSS Grid Layout.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Profesional-de-CSS-Grid-Layout.jpg"
+}, {
+  name: "Profesional de DevOps",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/devops.png",
+  image: "../assets/achievements/Profesional-de-DevOps.jpg"
+}, {
+  name: "Profesional de Next.JS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Profesional-de-Next.JS.jpg"
+}, {
+  name: "Programacion basica",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Programacion-basica.jpg"
+}, {
+  name: "Programacion Funcional en JS por BEDU.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Programacion-Funcional-en-JS-por-BEDU.jpg"
+}, {
+  name: "Programacion Orientada a Objetos",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Programacion-Orientada-a-Objetos.jpg"
+}, {
+  name: "Programacion Orientada a Objetos con JavaScript",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Programacion-Orientada-a-Objetos-con-JavaScript.jpg"
+}, {
+  name: "React.JS Manejo Profesional del Estado",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/React.JS-Manejo-Profesional-del-Estado.jpg"
+}, {
+  name: "React.JS Patrones de Render y Composicion",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/React.JS-Patrones-de-Render-y-Composicion.jpg"
+}, {
+  name: "Responsive Design - Maquetacion Mobile First.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Responsive-Design-MaquetacionMobileFirst.jpg"
+}, {
+  name: "Sistemas de Diseño",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Sistemas-de-Diseño.jpg"
+}, {
+  name: "Taller de Practico de JavaScript - Matematicas y Estadistica Basica",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Taller-Practico-de-JavaScript-Matematicas-y-Estadistica-Basica.jpg"
+}, {
+  name: "Taller de Practico de JavaScript - Crea tu primer videojuego",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Taller-Practico-de-JavaScript-Crea-tu-primer-videojuego.jpg"
+}, {
+  name: "Trabajo Remoto y Teletrabajo.jpg",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/TrabajoRemotoTeletrabajo.jpg"
+}, {
+  name: "Transformaciones y Transiciones en CSS",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Transformaciones-y-Transiciones-en-CSS.jpg"
+}, {
+  name: "Webpack",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/",
+  image: "../assets/achievements/Webpack.jpg"
 }];
 ;// CONCATENATED MODULE: ./src/App/index.js
 
