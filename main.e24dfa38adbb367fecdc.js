@@ -1155,7 +1155,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".AchievementCard {\r\n    width: auto;
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk1);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease;\r\n}\r\n\r\n#achievements>div>div:hover {\r\n    transform: scale(1.1);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#achievements img {    \r\n    border-radius: 50%;\r\n    margin: 2rem;\r\n    cursor: context-menu;\r\n    height: 65px;\r\n    width: 65px;\r\n    border: .5px solid var(--lt-bk3);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#achievements>div {\r\n    display: grid;\r\n    gap: 4rem;    \r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    \r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#achievements>div>div {\r\n    width: 100%;\r\n    height: 100%;\r\n    padding: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;    \r\n    background-color: var(--lt-bk1);\r\n    border-radius: 1rem;\r\n    color: var(--lt-tx);\r\n    transition: transform .3s ease;\r\n}\r\n\r\n#achievements>div>div:hover {\r\n    transform: scale(1.1);    \r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n#achievements img {    \r\n    height: 65px;\r\n    width: 65px;\r\n    margin: 2rem;\r\n    object-fit: cover;\r\n    object-position: left;\r\n    border: .5px solid var(--lt-bk3);\r\n    border-radius: 50%;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3292,9 +3292,6 @@ var skillsetDB = [{
 }, {
   name: "React",
   image: "../../assets/skillset/react.svg"
-}, {
-  name: "",
-  image: "../../assets/skillset/.svg"
 }, {
   name: "SASS",
   image: "../../assets/skillset/sass.svg"
