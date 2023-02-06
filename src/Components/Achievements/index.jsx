@@ -2,7 +2,7 @@ import React from 'react';
 import './Achievements.css'
 import { AchievementsList } from './AchievementsList';
 
-export function Achievements({achievementsDB}) {    
+export function Achievements({achievementsDB, setOpenModal}) {    
     return [
         <section id='achievements'>
             <h3>ACHIEVEMENTS</h3>
@@ -11,7 +11,8 @@ export function Achievements({achievementsDB}) {
                 {achievementsDB.map((achievement, index) => (
                     <AchievementsList 
                         key={index}
-                        achievement={achievement}
+                        achievement={achievement}                        
+                        setOpenModal={setOpenModal}
                     />
                 ))}
             </div>

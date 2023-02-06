@@ -139,7 +139,7 @@ import React from "react";
             repository_link: "https://github.com/amaneiro7/HolaJuniorsReto"
         },
         {
-            name: "ToDO Machine",
+            name: "ToDo Machine",
             description: "This is a ToDo Machine realized of react course from platzi",
             image:"../assets/portfolio/todomachine.jpg",
             deploy_link: "https://amaneiro7.github.io/platzitodoreact/",

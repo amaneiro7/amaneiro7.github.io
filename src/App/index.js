@@ -1,15 +1,15 @@
 import React from "react";
-import { Hero } from '@Components/Hero'
-import { Navbar } from '@Components/Navbar'
-import { AboutMe } from '@Components/AboutMe'
-import { Portfolio } from '@Components/Portfolio'
-import { Skillset } from '@Components/Skillset'
-import { Achievements } from '@Components/Achievements'
-import { Contact } from '@Components/Contact'
-import { Footer } from '@Components/Footer'
-import { skillsetDB, portfolioDB, achievementsDB } from './useDatabaseInfo'
+import { Hero } from '@Components/Hero';
+import { Navbar } from '@Components/Navbar';
+import { AboutMe } from '@Components/AboutMe';
+import { Portfolio } from '@Components/Portfolio';
+import { Skillset } from '@Components/Skillset';
+import { Achievements } from '@Components/Achievements';
+import { Contact } from '@Components/Contact';
+import { Footer } from '@Components/Footer';
+import { skillsetDB, portfolioDB, achievementsDB } from './useDatabaseInfo';
 
-function App() {    
+function App() {       
     return (
         <>   
             <header>

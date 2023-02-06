@@ -1,20 +1,36 @@
-import React from 'react';
-import {Button} from '../Button'
+import React, { useState } from 'react';
+import { Modal } from '../Modal';
+import { AchievementCard } from '../AchievementCard';
+import { Button } from '../Button'
 
-export function AchievementsList({achievement}) {
-    return (
+export function AchievementsList({ achievement}) {
+    const [openModal, setOpenModal] = useState(false)
+    const onHandleButton = () => setOpenModal(!openModal)
+    const {name,Title,otorged_by,logo,image} = achievement
+    return (        
         <div>
-            <img src={achievement.logo} alt={`${achievement.name} logo`} />            
-                <small>
-                    {achievement.name}
-                </small>
-                <br />
-                <small>
-                    Otorged by: {achievement.otorged_by}
-                </small>            
+            <img src={logo} alt={`${name} logo`} />
+            <small>
+                {name}
+            </small>
+            <br />
+            <small>
+                Otorged by: {otorged_by}
+            </small>
             <Button
                 name={"View"}
-            />            
-        </div>    
+                onHandleButton={onHandleButton}
+                />
+            {openModal && (
+                <Modal
+                    onHandleButton={onHandleButton}
+                >
+                    <AchievementCard 
+                        image={image}
+                        name={name}                        
+                    />
+                </Modal>
+            )}
+        </div>
     )
 }
