@@ -19,10 +19,6 @@ import React from "react";
             image: "../../assets/skillset/react.svg",
         },
         {
-            name: "",
-            image: "../../assets/skillset/.svg",
-        },
-        {
             name: "SASS",
             image: "../../assets/skillset/sass.svg",
         },
@@ -39,6 +35,7 @@ import React from "react";
             image: "../../assets/skillset/node-js.svg",
         },
     ]
+
     export const portfolioDB = [
         {
             name: "Platzi Movies",
