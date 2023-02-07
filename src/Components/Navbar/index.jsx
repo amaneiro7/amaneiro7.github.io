@@ -11,7 +11,7 @@ export function Navbar() {
                         <img className='navbar__logo' src="./../../assets/images/profile-pic.png" alt="profile pic"/>
                         <p>Andres Maneiro
                             <br />
-                            <small>IT Sopport | Frontend Developer</small>
+                            <small>IT Support | Frontend Developer</small>
                         </p>
                     </a>
                     <button className={`navbar__btn ${state && "active"}`}
