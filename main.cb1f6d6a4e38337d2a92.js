@@ -3327,7 +3327,7 @@ var portfolioDB = [{
   name: "CarpiShop - React",
   description: "This is one of my first personal project to create a fake store using React",
   image: "../assets/portfolio/CarpiShop.jpg",
-  deploy_link: "https://github.com/amaneiro7/e-commerce-react",
+  deploy_link: "https://amaneiro7.github.io/e-commerce-react/",
   repository_link: "https://github.com/amaneiro7/e-commerce-react"
 }, {
   name: "Batatabit",
