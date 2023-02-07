@@ -2626,7 +2626,7 @@ function Components_Navbar_Navbar() {
     className: "navbar__logo",
     src: "./../../assets/images/profile-pic.png",
     alt: "profile pic"
-  }), /*#__PURE__*/react.createElement("p", null, "Andres Maneiro", /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("small", null, "IT Sopport | Frontend Developer"))), /*#__PURE__*/react.createElement("button", {
+  }), /*#__PURE__*/react.createElement("p", null, "Andres Maneiro", /*#__PURE__*/react.createElement("br", null), /*#__PURE__*/react.createElement("small", null, "IT Support | Frontend Developer"))), /*#__PURE__*/react.createElement("button", {
     className: "navbar__btn ".concat(state && "active"),
     onClick: function onClick() {
       return setState(!state);
@@ -2682,7 +2682,7 @@ var AboutMe_update = injectStylesIntoStyleTag_default()(AboutMe/* default */.Z, 
 function Components_AboutMe_AboutMe() {
   return [/*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("section", {
     id: "aboutme"
-  }, /*#__PURE__*/react.createElement("h3", null, "ABOUT ME"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("p", null, "Experienced and professional IT support with over than ten years of valuable experience in issue resolution, customer service, projects effective execution to guarantee the success ofthe company. Familiar and adept at working with engineering, change control management, and business transformation systems. Accustomed to handling IT support, managing IT projects and supporting various engineering departments with IT tools and applications. Develop a motivated attitude and the ability to establish solid and productive relationships with other members ofthe company."), /*#__PURE__*/react.createElement("p", null, "I am currently a student at Platzi and I want to start a career as a Front-End developer. I have skills in HTML, CSS, SASS, TailwindCSS, JavaScript, React and NodeJS."), /*#__PURE__*/react.createElement("a", {
+  }, /*#__PURE__*/react.createElement("h3", null, "ABOUT ME"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("p", null, "Experienced and professional IT support with over than ten years of valuable experience in issue resolution, customer service, projects effective execution to guarantee the success of the company. Familiar and adept at working with engineering, change control management, and business transformation systems. Accustomed to handling IT support, managing IT projects and supporting various engineering departments with IT tools and applications. Develop a motivated attitude and the ability to establish solid and productive relationships with other members of the company."), /*#__PURE__*/react.createElement("p", null, "I am currently a student at Platzi and I want to start a career as a Front-End developer. I have skills in HTML, CSS, SASS, TailwindCSS, JavaScript, React and NodeJS."), /*#__PURE__*/react.createElement("a", {
     href: "../../assets/download/CV-AndresManeiro-eng.pdf",
     download: "CV-Andres-Maneiro.pdf"
   }, "My Curriculum"))))];
