@@ -1242,12 +1242,17 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#footer {\r\n    font-size: 1.4rem;\r\
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(667);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(542), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".hero {\r\n    width: 100%;\r\n    height: 290px;\r\n    padding: 80px 0 48px 0;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 3rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.hero img {\r\n    width: 150px;\r\n    height: 150px;\r\n    border-radius: 50%;\r\n    border: 2px solid white;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".hero {\r\n    width: 100%;\r\n    height: auto;\r\n    padding: 70px 0 48px 0;    \r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background-color: #758995;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n}\r\n.hero img {\r\n    width: 150px;\r\n    height: 150px;\r\n    border-radius: 50%;\r\n    border: 2px solid white;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1293,7 +1298,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".ModalBackground {\r\n    background: 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#navbar {\r\n    width: 100%;\r\n    height: 60px;\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    box-shadow: 0 0 10px 1px var(--lt-bk3);\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;    \r\n}\r\n\r\n.navbar__container {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    padding: 0 1rem;\r\n}\r\n\r\n.navbar__container a {\r\n    margin-left: .5rem;\r\n    align-items: center;\r\n    color: var(--lt-tx);\r\n    display: flex;\r\n    padding: 1rem .5rem;\r\n    text-decoration: none;\r\n}\r\n\r\n.navbar__container a span {\r\n    font-size: 1rem;\r\n}\r\n\r\n.navbar__container a span:hover {\r\n    color: var(--lt-tx2);\r\n}\r\n\r\n#navbar .navbar__logo {\r\n    width: 24px;\r\n    height: 24px;\r\n    border-radius: 50%;\r\n    margin-right: .5rem;\r\n}\r\n\r\n#navbar .navbar__btn {\r\n    width: 45px;\r\n    height: 40px;\r\n    background-color: transparent;\r\n    border: none;\r\n    color: var(--lt-tx);\r\n    cursor: pointer;\r\n    font-size: 2.4rem;\r\n    margin: .7rem;\r\n    padding: .2rem .7rem;\r\n    text-transform: none;    \r\n}\r\n\r\n#navbar .navbar__btn.active {\r\n    background-color: var(--lt-tx);\r\n    color: var(--tx-action);\r\n    border-radius: 2rem;\r\n    transition: background-color .5s ease, color .5s ease;\r\n}\r\n\r\n#navbar .navbar__menu  {\r\n    width: 100%;\r\n    max-height: 0;\r\n    border-top: 1px solid rgba(255, 255, 255, .1);\r\n    position: absolute;\r\n    overflow: hidden;\r\n    top: 440px;\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    transition: max-height .5s ease, overflow .3s fa;\r\n    margin: 0;\r\n    padding: 0;\r\n    z-index: 10;\r\n    animation: fadeOut .6s;\r\n}\r\n\r\n@keyframes fadeOut {\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n}\r\n\r\n#navbar .navbar__menu.active {\r\n    max-height: 450px;\r\n    overflow: visible;\r\n    animation: fadeIn .6s;\r\n}\r\n\r\n@keyframes fadeIn {\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n#navbar .navbar__menu.active ul li a {\r\n    display: block;\r\n}\r\n\r\n#navbar ul li {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n#navbar ul li a,\r\n#navbar ul li a:active {\r\n    font-size: 1.5rem;\r\n    color: var(--lt-tx2);    \r\n    padding: 10px 15px;\r\n    text-decoration: none;\r\n    transition: color .3s ease, background-color .3s ease;\r\n}\r\n\r\n#navbar ul li a:hover {\r\n    background-color: var(--lt-bk1);\r\n    color: var(--lt-tx);\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "#navbar {\r\n    width: 100%;\r\n    height: auto;\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));    \r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    top: 0;\r\n    position: sticky;\r\n    z-index: 10;\r\n}\r\n\r\n.navbar__container {\r\n    width: 100%;\r\n    height: 60px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    padding: 0 1rem;\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}\r\n\r\n.navbar__container a {\r\n    margin-left: .5rem;\r\n    align-items: center;\r\n    color: var(--lt-tx);\r\n    display: flex;\r\n    padding: 1rem .5rem;\r\n    text-decoration: none;\r\n}\r\n\r\n.navbar__container a span {\r\n    font-size: 1rem;\r\n}\r\n\r\n.navbar__container a span:hover {\r\n    color: var(--lt-tx2);\r\n}\r\n\r\n#navbar .navbar__logo {\r\n    width: 24px;\r\n    height: 24px;\r\n    border-radius: 50%;\r\n    margin-right: .5rem;\r\n}\r\n\r\n#navbar .navbar__btn {\r\n    width: 35px;\r\n    height: auto;\r\n    background-color: transparent;\r\n    border: none;\r\n    color: var(--lt-tx);\r\n    cursor: pointer;\r\n    font-size: 2.4rem;\r\n    margin: .7rem;\r\n    padding: .2rem .7rem;    \r\n    border-radius: 2rem;\r\n    transition: background-color .5s ease, color .5s ease;\r\n}\r\n\r\n#navbar .navbar__btn.active {\r\n    background-color: var(--lt-tx);\r\n    color: var(--tx-action);\r\n}\r\n\r\n#navbar .navbar__menu  {\r\n    width: 100%;\r\n    max-height: 0;\r\n    border-top: 1px solid rgba(255, 255, 255, .1);    \r\n    overflow: hidden;\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    opacity: 0;    \r\n    margin: 0;\r\n    padding: 0;\r\n    z-index: 10;\r\n    animation: fadeOut .6s;\r\n}\r\n\r\n@keyframes fadeOut {\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n}\r\n\r\n#navbar .navbar__menu.active {\r\n    max-height: 450px;    \r\n    animation: fadeIn .6s;\r\n    opacity: 1;\r\n}\r\n\r\n@keyframes fadeIn {\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n#navbar .navbar__menu.active ul li a {\r\n    display: block;\r\n}\r\n\r\n#navbar ul li {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n#navbar ul li a,\r\n#navbar ul li a:active {\r\n    font-size: 1.5rem;\r\n    color: var(--lt-tx2);    \r\n    padding: 10px 15px;\r\n    text-decoration: none;\r\n    transition: color .3s ease, background-color .3s ease;\r\n}\r\n\r\n#navbar ul li a:hover {\r\n    background-color: var(--lt-bk1);\r\n    color: var(--lt-tx);\r\n    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1357,18 +1362,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#skillset>div {\r\n    display: grid;\
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(667);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(542), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap);"]);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n\r\n    /* Light Theme LT */\r\n    --lt-bk1:#FFFFFF;\r\n    --lt-bk2:#d0d5db;\r\n    --lt-bk3:#00BDD6;\r\n    --lt-bk4:#00B0C7;\r\n    --lt-tx:#24292F;\r\n    --lt-tx2: #F8FFFF;\r\n    --lt-tx3:#0669Da;\r\n    /* Dark Theme DT */\r\n    --dt-bk1:#0D1117;\r\n    --dt-bk2: #161B22;\r\n    --dt-bk3: #132339;\r\n    --dt-tx: #c9d1dc9;\r\n    --dt-tx2: #58A6FF;\r\n\r\n    /* actions button */\r\n    --bk-action: #3798FF;\r\n    --bk-action-h:#0969DA;\r\n    --tx-action: #F8FFFF;\r\n    --black1: #323333;\r\n    --black2: #2A2B2B;\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;    \r\n}\r\n\r\nhtml {\r\n    font-family: 'Montserrat', sans-serif;\r\n    text-align: center;\r\n    background-color: var(--lt-bk);\r\n    color: var(--lt-tx);\r\n    font-size: 62.5%;\r\n    line-height: 1.15;\r\n}\r\n\r\nh1,h2,h3 {\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\nh1,h3 {\r\n    font-size: 3rem;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\nh2 {\r\n    text-transform: capitalize;\r\n    font-size: 2rem;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {    \r\n    letter-spacing: .5rem;\r\n    margin-bottom: 5rem;\r\n}\r\n\r\np {\r\n    padding: 0 2rem;\r\n    text-align: justify;\r\n    font-size: 1.8rem;    \r\n    font-weight: 400;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\na {\r\n    font-size: 1.8rem;\r\n    text-decoration: none;\r\n    color: var(--lt-tx);\r\n}\r\n\r\nsmall {\r\n    font-size: 1.2rem;    \r\n}\r\n\r\nhr {\r\n    border: 0;\r\n    height: .1rem; \r\n    max-width: 100%;    \r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nheader {\r\n    width: 100%;\r\n    height: auto;    \r\n    padding: 5rem 0 0;\r\n    position: relative;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n}\r\n\r\nmain {\r\n    padding-top: 3rem;\r\n}\r\n\r\nmain section {\r\n    padding: 6rem 0 3rem;\r\n}\r\n\r\nmain section>div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 6rem 10rem;\r\n}\r\n\r\n@media (max-width: 500px) {\r\n    main section>div {\r\n        padding: 6rem 6rem\r\n    }\r\n}\r\n\r\nmain section:nth-child(even) {\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    color: var(--lt-tx2);\r\n}\r\n\r\nmain section:nth-child(even) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain section:nth-child(odd) {\r\n    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));\r\n    color: var(--lt-tx);\r\n}\r\n\r\nmain section:nth-child(odd) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\r\n\r\n    /* Light Theme LT */\r\n    --lt-bk1:#FFFFFF;\r\n    --lt-bk2:#d0d5db;\r\n    --lt-bk3:#00BDD6;\r\n    --lt-bk4:#00B0C7;\r\n    --lt-tx:#24292F;\r\n    --lt-tx2: #F8FFFF;\r\n    --lt-tx3:#0669Da;\r\n    /* Dark Theme DT */\r\n    --dt-bk1:#0D1117;\r\n    --dt-bk2: #161B22;\r\n    --dt-bk3: #132339;\r\n    --dt-tx: #c9d1dc9;\r\n    --dt-tx2: #58A6FF;\r\n\r\n    /* actions button */\r\n    --bk-action: #3798FF;\r\n    --bk-action-h:#0969DA;\r\n    --tx-action: #F8FFFF;\r\n    --black1: #323333;\r\n    --black2: #2A2B2B;\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;    \r\n}\r\n\r\nhtml {\r\n    font-family: 'Montserrat', sans-serif;\r\n    text-align: center;\r\n    background-color: var(--lt-bk);\r\n    color: var(--lt-tx);\r\n    font-size: 62.5%;\r\n    line-height: 1.15;\r\n}\r\n\r\nh1,h2,h3 {\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\nh1,h3 {\r\n    font-size: 3rem;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\nh2 {\r\n    text-transform: capitalize;\r\n    font-size: 2rem;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {    \r\n    letter-spacing: .5rem;\r\n    margin-bottom: 5rem;\r\n}\r\n\r\np {\r\n    padding: 0 2rem;\r\n    text-align: justify;\r\n    font-size: 1.8rem;    \r\n    font-weight: 400;\r\n    margin-block-start: 1rem;\r\n    margin-block-end: 1rem;\r\n    margin-inline-start: 0;\r\n    margin-inline-end: 0;\r\n}\r\n\r\na {\r\n    font-size: 1.8rem;\r\n    text-decoration: none;\r\n    color: var(--lt-tx);\r\n}\r\n\r\nsmall {\r\n    font-size: 1.2rem;    \r\n}\r\n\r\nhr {\r\n    border: 0;\r\n    height: .1rem; \r\n    max-width: 100%;    \r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain {\r\n    padding-top: 3rem;\r\n}\r\n\r\nmain section {\r\n    padding: 6rem 0 3rem;\r\n}\r\n\r\nmain section>div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 6rem 10rem;\r\n}\r\n\r\n@media (max-width: 500px) {\r\n    main section>div {\r\n        padding: 6rem 6rem\r\n    }\r\n}\r\n\r\nmain section:nth-child(even) {\r\n    background: linear-gradient(var(--lt-bk3), var(--lt-bk4));\r\n    color: var(--lt-tx2);\r\n}\r\n\r\nmain section:nth-child(even) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);\r\n}\r\n\r\nmain section:nth-child(odd) {\r\n    background: linear-gradient(var(--lt-bk1), var(--lt-bk2));\r\n    color: var(--lt-tx);\r\n}\r\n\r\nmain section:nth-child(odd) hr {\r\n    background-image: linear-gradient(to right, transparent, var(--lt-bk3), transparent);\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2509,12 +2509,12 @@ var update = injectStylesIntoStyleTag_default()(Hero/* default */.Z, options);
 
 
 function Components_Hero_Hero() {
-  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", {
+  return /*#__PURE__*/react.createElement("header", {
     className: "hero"
   }, /*#__PURE__*/react.createElement("img", {
     src: "./../../assets/images/profile-pic.png",
     alt: "profile pic"
-  }), /*#__PURE__*/react.createElement("h1", null, "Andres Maneiro"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("h2", null, "IT Support | Frontend Developer")));
+  }), /*#__PURE__*/react.createElement("h1", null, "Andres Maneiro"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("h2", null, "IT Support | Frontend Developer"));
 }
 ;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
 function _arrayWithHoles(arr) {
@@ -2616,7 +2616,7 @@ function Components_Navbar_Navbar() {
     _useState2 = _slicedToArray(_useState, 2),
     state = _useState2[0],
     setState = _useState2[1];
-  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("nav", {
+  return /*#__PURE__*/react.createElement("nav", {
     id: "navbar"
   }, /*#__PURE__*/react.createElement("div", {
     className: "navbar__container"
@@ -2634,16 +2634,31 @@ function Components_Navbar_Navbar() {
   }, "\u2630")), state && /*#__PURE__*/react.createElement("div", {
     className: "navbar__menu ".concat(state && "active")
   }, /*#__PURE__*/react.createElement("ul", null, /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "#aboutMe"
+    href: "#aboutme",
+    onClick: function onClick() {
+      return setState(false);
+    }
   }, "About Me")), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "#portfolio"
+    href: "#portfolio",
+    onClick: function onClick() {
+      return setState(false);
+    }
   }, "Portfolio")), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "#skillset"
+    href: "#skillset",
+    onClick: function onClick() {
+      return setState(false);
+    }
   }, "Skillset")), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "#achievements"
+    href: "#achievements",
+    onClick: function onClick() {
+      return setState(false);
+    }
   }, "Achievements")), /*#__PURE__*/react.createElement("li", null, /*#__PURE__*/react.createElement("a", {
-    href: "#contact"
-  }, "Contact"))))));
+    href: "#contact",
+    onClick: function onClick() {
+      return setState(false);
+    }
+  }, "Contact")))));
 }
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/Components/AboutMe/AboutMe.css
 var AboutMe = __webpack_require__(316);
@@ -3445,7 +3460,7 @@ var achievementsDB = [{
   logo: "../assets/achievements-icon/badges-animacion-css.webp",
   image: "../assets/achievements/Animaciones-con-CSS.jpg"
 }, {
-  name: "Asincronismo con JavaScript.jpg",
+  name: "Asincronismo con JavaScript",
   Title: "Certificate",
   otorged_by: "Platzi",
   logo: "../assets/achievements-icon/badge-asincro-js.png",
@@ -3883,7 +3898,7 @@ var achievementsDB = [{
 
 
 function App() {
-  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("header", null, /*#__PURE__*/react.createElement(Components_Hero_Hero, null), /*#__PURE__*/react.createElement(Components_Navbar_Navbar, null)), /*#__PURE__*/react.createElement("main", null, /*#__PURE__*/react.createElement(Components_AboutMe_AboutMe, null), /*#__PURE__*/react.createElement(Components_Portfolio_Portfolio, {
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(Components_Hero_Hero, null), /*#__PURE__*/react.createElement(Components_Navbar_Navbar, null), /*#__PURE__*/react.createElement("main", null, /*#__PURE__*/react.createElement(Components_AboutMe_AboutMe, null), /*#__PURE__*/react.createElement(Components_Portfolio_Portfolio, {
     portfolioDB: portfolioDB
   }), /*#__PURE__*/react.createElement(Components_Skillset_Skillset, {
     skillsetDB: skillsetDB
