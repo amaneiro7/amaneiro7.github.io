@@ -4,7 +4,7 @@ import './Navbar.css'
 export function Navbar() {
     const [state, setState] = useState(false)
     return (
-        <>
+
             <nav id='navbar'>
                 <div className='navbar__container'>
                     <a href="/">
@@ -24,24 +24,44 @@ export function Navbar() {
                     <div className={`navbar__menu ${state && "active"}`}>
                         <ul>
                             <li>
-                                <a href="#aboutMe">About Me</a>
+                                <a href="#aboutme"
+                                    onClick={() => setState(false)}
+                                >
+                                    About Me
+                                </a>
                             </li>
                             <li>
-                                <a href="#portfolio">Portfolio</a>
+                                <a href="#portfolio"
+                                    onClick={() => setState(false)}
+                                >
+                                    Portfolio
+                                </a>
                             </li>
                             <li>
-                                <a href="#skillset">Skillset</a>
+                                <a href="#skillset"
+                                    onClick={() => setState(false)}
+                                >
+                                    Skillset
+                                </a>
                             </li>
                             <li>
-                                <a href="#achievements">Achievements</a>
+                                <a href="#achievements"
+                                    onClick={() => setState(false)}
+                                >
+                                    Achievements
+                                </a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="#contact"
+                                    onClick={() => setState(false)}
+                                >
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </div>
                     }
             </nav>
-        </>
+ 
     )
 }

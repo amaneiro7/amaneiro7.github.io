@@ -93,16 +93,6 @@ hr {
     background-image: linear-gradient(to right, transparent, var(--lt-bk1), transparent);
 }
 
-header {
-    width: 100%;
-    height: auto;    
-    padding: 5rem 0 0;
-    position: relative;
-    background-image: url('../assets/images/cover-image.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 main {
     padding-top: 3rem;
 }

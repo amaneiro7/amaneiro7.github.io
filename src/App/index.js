@@ -11,11 +11,9 @@ import { skillsetDB, portfolioDB, achievementsDB } from './useDatabaseInfo';
 
 function App() {       
     return (
-        <>   
-            <header>
-                <Hero/>
-                <Navbar/>
-            </header>
+        <>  
+            <Hero/>
+            <Navbar/>
             <main>
                 <AboutMe/>
                 <Portfolio

@@ -202,7 +202,7 @@ import React from "react";
             image: "../assets/achievements/Animaciones-con-CSS.jpg",
         },
         {
-            name: "Asincronismo con JavaScript.jpg",
+            name: "Asincronismo con JavaScript",
             Title: "Certificate",
             otorged_by: "Platzi",
             logo: "../assets/achievements-icon/badge-asincro-js.png",
