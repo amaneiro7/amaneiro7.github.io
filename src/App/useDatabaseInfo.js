@@ -157,7 +157,7 @@ import React from "react";
             repository_link: "https://github.com/amaneiro7/404PageChallenge"
         },
         {
-            name: "Platzi Blog React-Dom",
+            name: "Platzi Blog React-Routers-Dom",
             description: "This is a project from a challenge from platzi, to put in practice React-Dom, privite routes, and a fake login",
             image:"../assets/portfolio/404pagechallenge.jpg",
             deploy_link: " https://amaneiro7.github.io/react-dom-platzi-pratice/",
