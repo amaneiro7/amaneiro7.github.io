@@ -705,5 +705,12 @@ import React from "react";
             logo: "../assets/achievements-icon/badge-webpack.webp",
             image: "../assets/achievements/Webpack.jpg",
         },
+        {
+            name: "State Machines en React.js",
+            Title: "Certificate",
+            otorged_by: "Platzi",
+            logo: "../assets/achievements-icon/staet-machines-badge.webp",
+            image: "../assets/achievements/State-Machines-en-React.JS.jpg",
+        },
     ]
 

@@ -9,11 +9,8 @@ export function AboutMe() {
                 <hr />
                 <div>
                     <p>
-                        Experienced and professional IT support with over than ten years of valuable experience in issue resolution, customer service, projects effective execution to guarantee the success of the company. Familiar and adept at working with engineering, change control management, and business transformation systems. Accustomed to handling IT support, managing IT projects and supporting various engineering departments with IT tools and applications. Develop a motivated attitude and the ability to establish solid and productive relationships with other members of the company.
-                    </p>
-                    <p>
-                        I am currently a student at Platzi and I want to start a career as a Front-End developer. I have skills in HTML, CSS, SASS, TailwindCSS, JavaScript, React and NodeJS.
-                    </p>
+                        IT support professional with over ten years of experience in solving technical issues and providing quality customer service. Passionate about web development and knowledgeable in HTML, CSS, SASS, TailwindCSS, JavaScript, React and NodeJS. Active Platzi student with several certifications in the Front-End area. Able to create responsive, dynamic and attractive websites for different types of clients and users. Eager to learn new technologies and tools to improve my skills and contribute to the success of the company.
+                    </p>                    
                     <a href="../../assets/download/CV-AndresManeiro-eng.pdf" download="CV-Andres-Maneiro.pdf" >My Curriculum</a>
                 </div>
             </section>
