@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function SkillsetList({skill}) {
+export default function SkillsetList({skill}) {
     return (
         <div>
             <img src={skill.image} alt={skill.name} />

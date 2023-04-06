@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { lazy, useState } from 'react';
 import {useForm, ValidationError} from '@formspree/react'
-import { Form } from './Form';
-import { SentMessage } from './SentMessage';
 import './Contact.css'
 
-export function Contact() {
+const SentMessage = lazy(() => import('./SentMessage'));
+const Form = lazy(() => import('./Form'));
+
+export default function Contact() {
     const [ state, handleSubmit] = useForm("mwkjvdyb");
     const [ inputEmail, setInputEmail ] = useState("");
     const [ inputMessage, setInputMessage ] = useState("");   

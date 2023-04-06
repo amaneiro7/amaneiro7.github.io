@@ -1,7 +1,8 @@
-import React from 'react';
-import {ALinkButton} from '../ALinkButton';
+import React, { lazy } from 'react';
 
-export function PortfolioList({project}) {
+const ALinkButton = lazy(() => import('@Components/ALinkButton'));
+
+export default function PortfolioList({project}) {
     return (
         <div>
             <img src={project.image} alt={project.name} />

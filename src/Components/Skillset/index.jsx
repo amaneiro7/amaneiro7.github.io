@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { lazy } from 'react';
+import { skillsetDB } from '@App/SkillSetDB';
 import './Skillset.css'
-import { SkillsetList } from './SlikksetList';
 
-export function Skillset({skillsetDB}) {    
+const SkillsetList = lazy(() => import('./SlikksetList'));
+
+export default function Skillset() {    
     return (
         <section id='skillset'>
             <h3>SKILLSET</h3>
@@ -10,7 +12,7 @@ export function Skillset({skillsetDB}) {
             <div>
                 {skillsetDB.map((skill, index) => (
                     <SkillsetList 
-                        key={index}
+                        key={`skillset${index}`}
                         skill={skill}
                     />
                 ))}

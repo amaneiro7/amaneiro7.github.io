@@ -19,6 +19,7 @@ module.exports = {
             '@styles': path.resolve(__dirname,'src/styles'),
             '@App': path.resolve(__dirname,'src/App'),
             '@Components': path.resolve(__dirname,'src/Components'),
+            '@assets': path.resolve(__dirname,'src/assets'),
         }
     },
     mode: 'production',

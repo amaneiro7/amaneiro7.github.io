@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { lazy } from 'react';
+import { portfolioDB } from '@App/portfolioDB';
 import './Portfolio.css'
-import { PortfolioList } from './PortfolioList';
 
-export function Portfolio({portfolioDB}) {
+const PortfolioList = lazy(() => import('./PortfolioList'));
+
+export default function Portfolio() {
     return (
         <section id='portfolio'>
             <h3>Portfolio</h3>
@@ -10,7 +12,7 @@ export function Portfolio({portfolioDB}) {
             <div>
                 {portfolioDB.map((project, index) => (
                     <PortfolioList 
-                        key={index}
+                        key={`portfolio${index}`}
                         project={project}
                     />
                 ))}

@@ -1,7 +1,8 @@
-import React from 'react';
-import { Button } from '../Button';
+import React, { lazy } from 'react';
 
-export function SentMessage({state, handleSubmit, setInputEmail, setInputMessage}) {
+const Button = lazy(() => import('@Components/Button'));
+
+export default function SentMessage({state, handleSubmit, setInputEmail, setInputMessage}) {
     const onHandleButton = () => {
         setInputEmail("");
         setInputMessage("");

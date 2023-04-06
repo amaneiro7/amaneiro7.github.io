@@ -1,7 +1,7 @@
 import React from "react";
 import './Hero.css'
 
-export function Hero() {
+export default function Hero() {
     return (
         <header className="hero">
                 <img src="./../../assets/images/profile-pic.png" alt="profile pic"/>

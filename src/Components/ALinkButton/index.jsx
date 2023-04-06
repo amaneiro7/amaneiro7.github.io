@@ -1,7 +1,7 @@
 import React from 'react';
 import './ALinkButton.css'
 
-export function ALinkButton(props) {
+export default function ALinkButton(props) {
     const {name, link} = props
     return (
         <a 

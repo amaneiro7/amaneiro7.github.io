@@ -2697,7 +2697,7 @@ var AboutMe_update = injectStylesIntoStyleTag_default()(AboutMe/* default */.Z, 
 function Components_AboutMe_AboutMe() {
   return [/*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("section", {
     id: "aboutme"
-  }, /*#__PURE__*/react.createElement("h3", null, "ABOUT ME"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("p", null, "Experienced and professional IT support with over than ten years of valuable experience in issue resolution, customer service, projects effective execution to guarantee the success of the company. Familiar and adept at working with engineering, change control management, and business transformation systems. Accustomed to handling IT support, managing IT projects and supporting various engineering departments with IT tools and applications. Develop a motivated attitude and the ability to establish solid and productive relationships with other members of the company."), /*#__PURE__*/react.createElement("p", null, "I am currently a student at Platzi and I want to start a career as a Front-End developer. I have skills in HTML, CSS, SASS, TailwindCSS, JavaScript, React and NodeJS."), /*#__PURE__*/react.createElement("a", {
+  }, /*#__PURE__*/react.createElement("h3", null, "ABOUT ME"), /*#__PURE__*/react.createElement("hr", null), /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("p", null, "IT support professional with over ten years of experience in solving technical issues and providing quality customer service. Passionate about web development and knowledgeable in HTML, CSS, SASS, TailwindCSS, JavaScript, React and NodeJS. Active Platzi student with several certifications in the Front-End area. Able to create responsive, dynamic and attractive websites for different types of clients and users. Eager to learn new technologies and tools to improve my skills and contribute to the success of the company."), /*#__PURE__*/react.createElement("a", {
     href: "../../assets/download/CV-AndresManeiro-eng.pdf",
     download: "CV-Andres-Maneiro.pdf"
   }, "My Curriculum"))))];
@@ -3891,6 +3891,12 @@ var achievementsDB = [{
   otorged_by: "Platzi",
   logo: "../assets/achievements-icon/badge-webpack.webp",
   image: "../assets/achievements/Webpack.jpg"
+}, {
+  name: "State Machines en React.js",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/staet-machines-badge.webp",
+  image: "../assets/achievements/State-Machines-en-React.JS.jpg"
 }];
 ;// CONCATENATED MODULE: ./src/App/index.js
 

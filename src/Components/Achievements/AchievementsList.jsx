@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import { Modal } from '../Modal';
-import { AchievementCard } from '../AchievementCard';
-import { Button } from '../Button'
+import React, { lazy, useState } from 'react';
 
-export function AchievementsList({ achievement}) {
+const Modal = lazy(() => import('@Components/Modal'));
+const AchievementCard = lazy(() => import('@Components/AchievementCard'));
+const Button = lazy(() => import('@Components/Button'));
+
+export default function AchievementsList({ achievement}) {
     const [openModal, setOpenModal] = useState(false)
     const onHandleButton = () => setOpenModal(!openModal)
     const {name,Title,otorged_by,logo,image} = achievement

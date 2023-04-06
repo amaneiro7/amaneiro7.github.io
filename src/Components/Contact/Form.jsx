@@ -1,8 +1,9 @@
-import React from 'react';
-import { Button } from '../Button';
+import React, { lazy } from 'react';
 import {ValidationError} from '@formspree/react'
 
-export function Form({handleSubmit, state, inputEmail, inputMessage, setInputEmail, setInputMessage}) {
+const Button = lazy(() => import('@Components/Button'));
+
+export default function Form({handleSubmit, state, inputEmail, inputMessage, setInputEmail, setInputMessage}) {
     const onChangeInputEmail = ({target: {value}}) => {
         setInputEmail(value)
     }
