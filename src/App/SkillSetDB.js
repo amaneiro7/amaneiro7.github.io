@@ -12,7 +12,7 @@ export const skillsetDB = [
         image: "../../assets/skillset/javascript.svg",
     },
     {
-        name: "React",
+        name: "React.JS",
         image: "../../assets/skillset/react.svg",
     },
     {
@@ -36,15 +36,15 @@ export const skillsetDB = [
         image: "../../assets/skillset/postgresql.svg",
     },
     {
-        name: "NodeJs",
+        name: "Node.Js",
         image: "../../assets/skillset/node-js.svg",
     },
     {
-        name: "ExpressJs",
+        name: "Express.Js",
         image: "../../assets/skillset/express.svg",
     },
     {
-        name: "PassportJS",
+        name: "Passport.JS",
         image: "../../assets/skillset/passport.svg",
     },
     {
