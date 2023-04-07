@@ -502,7 +502,7 @@ var AchievementsDB = [{
   logo: "../assets/achievements-icon/badgetallerPOO.webp",
   image: "../assets/achievements/Taller-SecretosOcultos-de-Javascript-Proteccion-de-Objetos-para-Misiones-Espaciales.png"
 }, {
-  name: "Trabajo Remoto y Teletrabajo.jpg",
+  name: "Trabajo Remoto y Teletrabajo",
   Title: "Certificate",
   otorged_by: "Platzi",
   logo: "../assets/achievements-icon/badges-trabajo-remoto.png",
@@ -525,6 +525,12 @@ var AchievementsDB = [{
   otorged_by: "Platzi",
   logo: "../assets/achievements-icon/staet-machines-badge.webp",
   image: "../assets/achievements/State-Machines-en-React.JS.jpg"
+}, {
+  name: "Introducción a los Patrones de Diseño de Software",
+  Title: "Certificate",
+  otorged_by: "Platzi",
+  logo: "../assets/achievements-icon/badge-intro-patrones-dise-sotware.webp",
+  image: "../assets/achievements/Introduccion-patrones-diseño-software.png"
 }];
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
 var injectStylesIntoStyleTag = __webpack_require__(3379);
